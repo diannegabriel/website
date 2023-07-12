@@ -7,10 +7,10 @@ module.exports = {
   ],
   theme: {
     maxWidth: {
-      container: "",
-      contentContainer: "",
-      containerSmall: "",
-      containerXS: ""
+      container: "1440px",
+      contentContainer: "1140px",
+      containerSmall: "1024px",
+      containerXS: "768px"
     },
     extend: {
       screens: {
