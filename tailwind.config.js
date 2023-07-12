@@ -8,14 +8,14 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        xxs: "",
-        xs: "",
-        sm: "",
-        md: "",
-        lg: "",
-        xlg: "",
-        xxlg: "",
-        xxxlg: ""
+        xxs: "320px",
+        xs: "375px",
+        sm: "500px",
+        md: "667px",
+        lg: "768px",
+        xlg: "960px",
+        xxlg: "1024px",
+        xxxlg: "1280px"
       },
       // backgroundImage: {
       //   'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
