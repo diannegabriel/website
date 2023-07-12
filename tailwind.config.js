@@ -17,6 +17,9 @@ module.exports = {
       },
       boxShadow: {
         navbarShadow: "0 10px 30px -10px rgba(2, 12, 27, 0.7)"
+      },
+      colors: {
+        bodyBgColor: "#130A24"
       }
     },
   },
