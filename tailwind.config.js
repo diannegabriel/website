@@ -20,7 +20,7 @@ module.exports = {
       },
       colors: {
         bodyBgColor: "#130A24",
-        textAccent: "",
+        textAccent: "#EC8D00",
         textLight: "",
         textDark: "",
         hoverColor: ""
