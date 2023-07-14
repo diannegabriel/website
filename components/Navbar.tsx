@@ -12,7 +12,7 @@ const Navbar = () => {
       </div>
       <div>
         <ul>
-        <Link href="#home">
+        <Link href="#home" className="flex items-center gap-1 font-medium text-2xl text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
           <li>Home</li>
         </Link>
         </ul>
