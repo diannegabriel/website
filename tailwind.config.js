@@ -38,8 +38,8 @@ module.exports = {
       colors: {
         bodyBgColor: "#180443",
         textAccent: "#EC8D00",
-        textLight: "F9F4FF",
-        textDark: "D7D0E0",
+        textLight: "#F9F4FF",
+        textDark: "#D7D0E0",
         hoverColor: "rgba(255, 214, 100, 0.1)"
       }
     },
