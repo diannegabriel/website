@@ -1,4 +1,4 @@
-import { logoGif } from "@/public/assets";
+import { dianneGif } from "@/public/assets";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -8,7 +8,7 @@ const Navbar = () => {
   <div className="w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyBgColor px-4">
     <div className="max-w-container h-full mx-auto py-1 font-bodyFont flex items-center justify-between">
       <div>
-        <Image className="w-40" src={logoGif} alt="logo" />
+        <Image className="w-40" src={dianneGif} alt="logo" />
       </div>
       <div>
         <ul className="flex text-[15px] gap-7">
