@@ -9,7 +9,7 @@ const Navbar = () => {
   <div className="w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyBgColor px-4">
     <div className="max-w-container h-full mx-auto py-1 font-bodyFont flex items-center justify-between">
       <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 0.5}}>
-        <Image width={150} height={50} src={dianneGif} alt="logo" />
+        <Image width={150} height={45} src={dianneGif} alt="logo" />
       </motion.div>
       <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 0.5}}>
         <ul className="flex text-[15px] gap-7">
