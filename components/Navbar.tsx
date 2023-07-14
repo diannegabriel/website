@@ -11,9 +11,12 @@ const Navbar = () => {
         <Image className="w-40" src={logoGif} alt="logo" />
       </div>
       <div>
-        <ul>
-        <Link href="#home" className="flex items-center gap-1 font-medium text-lg text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
+        <ul className="flex text-[15px] gap-7">
+        <Link href="#home" className="flex items-center gap-1 font-medium text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
           <li>Home</li>
+        </Link>
+        <Link href="#home" className="flex items-center gap-1 font-medium text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
+          <li>About</li>
         </Link>
         </ul>
       </div>
