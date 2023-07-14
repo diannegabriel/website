@@ -9,6 +9,11 @@ const Navbar = () => {
       <div>
         <Image className="w-40" src={logoGif} alt="logo" />
       </div>
+      <div>
+        <ul>
+          <li>Home</li>
+        </ul>
+      </div>
     </div>
   </div>
   )
