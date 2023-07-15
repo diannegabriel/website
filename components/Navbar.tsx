@@ -23,20 +23,21 @@ const Navbar = () => {
           <ul className="flex text-[15px] gap-7">
             <Link
               href="#home"
-              className="flex items-center gap-1 font-medium text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link"
             >
-              <motion.li
+              <a className="flex items-center gap-1 font-medium text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
+                <motion.li
                 initial={{ y: -10, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.5 }}
-              >
+                >
                 Home
-              </motion.li>
+                </motion.li>
+              </a>
             </Link>
             <Link
               href="#about"
-              className="flex items-center gap-1 font-medium text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link"
             >
+                            <a className="flex items-center gap-1 font-medium text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
@@ -44,11 +45,12 @@ const Navbar = () => {
               >
                 About
               </motion.li>
+              </a>
             </Link>
             <Link
               href="#project"
-              className="flex items-center gap-1 font-medium text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link"
             >
+                            <a className="flex items-center gap-1 font-medium text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
@@ -56,11 +58,12 @@ const Navbar = () => {
               >
                 Project
               </motion.li>
+              </a>
             </Link>
             <Link
               href="#contact"
-              className="flex items-center gap-1 font-medium text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link"
             >
+                            <a className="flex items-center gap-1 font-medium text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
@@ -68,6 +71,7 @@ const Navbar = () => {
               >
                 Contact
               </motion.li>
+              </a>
             </Link>
           </ul>
         </motion.div>
