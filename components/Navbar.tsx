@@ -15,10 +15,10 @@ const Navbar = () => {
         >
           <Image width={150} height={45} src={dianneGif} alt="logo" />
         </motion.div>
-        <div>
-          <ul className="flex text-[15px] gap-7">
+        <div className="hidden mdL:inline-flex items-center gap-7">
+          <ul className="flex text-[15px] gap-10">
             <Link href="#home">
-              <a className="flex items-center gap-1 font-medium text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
+              <a className="flex items-center gap-1 text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
                 <motion.li
                   initial={{ y: -10, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
@@ -29,7 +29,7 @@ const Navbar = () => {
               </a>
             </Link>
             <Link href="#about">
-              <a className="flex items-center gap-1 font-medium text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
+              <a className="flex items-center gap-1 text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
                 <motion.li
                   initial={{ y: -10, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
@@ -40,7 +40,7 @@ const Navbar = () => {
               </a>
             </Link>
             <Link href="#project">
-              <a className="flex items-center gap-1 font-medium text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
+              <a className="flex items-center gap-1 text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
                 <motion.li
                   initial={{ y: -10, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
@@ -51,7 +51,7 @@ const Navbar = () => {
               </a>
             </Link>
             <Link href="#contact">
-              <a className="flex items-center gap-1 font-medium text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
+              <a className="flex items-center gap-1 text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
                 <motion.li
                   initial={{ y: -10, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
@@ -66,7 +66,7 @@ const Navbar = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6 }}
-            className="px-4 py-2 rounded-md text-textAccent text-[13px] border border-textAccent hover:bg-hoverColor duration-300"
+            className="px-4 py-2 rounded-md text-textAccent text-[15px] border border-textAccent hover:bg-hoverColor duration-300"
           >
             Résumé
           </motion.button>
