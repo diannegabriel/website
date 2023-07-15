@@ -62,7 +62,7 @@ const Navbar = () => {
               </a>
             </Link>
           </ul>
-          <a href="">
+          <a href="/assets/Dianne_Gabriel_Resume.pdf" target="_blank">
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
