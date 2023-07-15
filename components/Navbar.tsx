@@ -14,7 +14,8 @@ const Navbar = () => {
           transition={{ duration: 0.5 }}
         >
           <Image width={150} height={45} src={dianneGif} alt="logo" />
-        </motion.div>ß
+        </motion.div>
+        ß
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -25,7 +26,13 @@ const Navbar = () => {
               href="#home"
               className="flex items-center gap-1 font-medium text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link"
             >
-              <li>Home</li>
+              <motion.li
+                initial={{ y: -10, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.1 }}
+              >
+                Home
+              </motion.li>
             </Link>
             <Link
               href="#home"
