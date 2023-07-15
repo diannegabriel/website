@@ -28,7 +28,7 @@ const Navbar = () => {
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.1 }}
+                transition={{ duration: 0.5 }}
               >
                 Home
               </motion.li>
