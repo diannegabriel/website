@@ -73,6 +73,8 @@ const Navbar = () => {
             </motion.button>
           </a>
         </div>
+        {/* Hamburger icon */}
+        <div className="w-6 h-5 flex flex-col justify-between items-center mdL:hidden text-4xl text-textAccent cursor-pointer overflow-hidden group"></div>
       </div>
     </div>
   );
