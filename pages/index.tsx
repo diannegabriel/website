@@ -15,9 +15,9 @@ export default function Home() {
         <Navbar />
         <div className="w-full h-[88vh] xl:flex items-center gap-20 justify-between">
 
-        <div>
+        <aside>
           <Socials />
-        </div>
+        </aside>
         <div></div>
         <div></div>
         </div>

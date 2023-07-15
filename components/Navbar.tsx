@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const Navbar = () => {
   return (
-    <div className="w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyBgColor px-4">
+    <nav className="w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyBgColor px-4">
       <div className="max-w-container h-full mx-auto py-1 font-bodyFont flex items-center justify-between">
         <motion.div
           initial={{ opacity: 0 }}
@@ -80,7 +80,7 @@ const Navbar = () => {
           <span className="w-full h-[2px] bg-textAccent inline-flex transform translate-x-1 group-hover:translate-x-3 transition-all ease-in-out duration-300"></span>
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 
