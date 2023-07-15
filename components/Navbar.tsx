@@ -15,7 +15,6 @@ const Navbar = () => {
         >
           <Image width={150} height={45} src={dianneGif} alt="logo" />
         </motion.div>
-        ß
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
