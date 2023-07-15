@@ -61,7 +61,13 @@ const Navbar = () => {
             </a>
           </Link>
         </ul>
-        <button>Résumé</button>
+        <motion.button
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.6 }}
+        >
+          Résumé
+        </motion.button>
       </div>
     </div>
   );
