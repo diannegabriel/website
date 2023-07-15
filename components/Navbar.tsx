@@ -16,7 +16,7 @@ const Navbar = () => {
           <Image width={150} height={45} src={dianneGif} alt="logo" />
         </motion.div>
         <div className="hidden mdL:inline-flex items-center gap-7">
-          <ul className="flex text-[15px] gap-10">
+          <ul className="flex text-[15px] gap-7">
             <Link href="#home">
               <a className="flex items-center gap-1 text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
                 <motion.li
@@ -62,14 +62,16 @@ const Navbar = () => {
               </a>
             </Link>
           </ul>
-          <motion.button
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.6 }}
-            className="px-4 py-2 rounded-md text-textAccent text-[15px] border border-textAccent hover:bg-hoverColor duration-300"
-          >
-            Résumé
-          </motion.button>
+          <a href="">
+            <motion.button
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.6 }}
+              className="px-4 py-2 rounded-md text-textAccent text-[15px] border border-textAccent hover:bg-hoverColor duration-300"
+            >
+              Résumé
+            </motion.button>
+          </a>
         </div>
       </div>
     </div>
