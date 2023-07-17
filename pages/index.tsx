@@ -21,7 +21,7 @@ export default function Home() {
           <section>
 
           </section>
-          <article>
+          <article className="hidden xl:inline-flex w-32 h-full fixed right-0 bottom-0">
             <Email />
           </article>
         </div>
