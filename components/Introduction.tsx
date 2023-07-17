@@ -19,8 +19,9 @@ const Introduction = () => {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.7 }}
+        className="text-4xl lgL:text-6xl font-bodyFont font-semibold flex flex-col"
       >
-        Dianne Gabriel. <span>I make apps :)</span>
+        Dianne Gabriel. <span>I make apps to save the world :)</span>
       </motion.h1>
     </section>
   );

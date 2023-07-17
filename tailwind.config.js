@@ -29,8 +29,8 @@ module.exports = {
       //     'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       // },
       fontFamily: {
-        bodyFont: ["Roboto", "sans-serif"],
-        titleFont: ["Montserrat", "sans-serif"]
+        titleFont: ["Roboto", "sans-serif"],
+        bodyFont: ["Montserrat", "sans-serif"]
       },
       boxShadow: {
         navbarShadow: "0 10px 30px -10px rgba(2, 12, 27, 0.7)"
