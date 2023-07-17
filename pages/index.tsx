@@ -17,6 +17,12 @@ export default function Home() {
           <aside className="hidden xl:inline-flex w-32 h-full fixed left-0 bottom-0">
             <Socials />
           </aside>
+          <section>
+
+          </section>
+          <article>
+            
+          </article>
         </div>
       </main>
     </>
