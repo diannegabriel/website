@@ -24,15 +24,15 @@ export default function Home() {
           >
             <Socials />
           </motion.aside>
-          <section className="h-[88vh] mx-auto p-4">asdasd</section>
-          <motion.article
+          <article className="h-[88vh] mx-auto p-4">asdasd</article>
+          <motion.aside
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1.5 }}
             className="hidden xl:inline-flex w-32 h-full fixed right-0 bottom-0"
           >
             <Email />
-          </motion.article>
+          </motion.aside>
         </div>
       </main>
     </>
