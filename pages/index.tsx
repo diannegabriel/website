@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import Socials from "@/components/Socials";
 // import { Inter } from 'next/font/google'
 import Head from "next/head";
+import { motion } from "framer-motion";
 
 // const inter = Inter({ subsets: ['latin'] })
 
@@ -19,7 +20,7 @@ export default function Home() {
             <Socials />
           </aside>
           <section>
-            asdasd
+            
           </section>
           <article className="hidden xl:inline-flex w-32 h-full fixed right-0 bottom-0">
             <Email />
