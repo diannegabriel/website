@@ -1,3 +1,4 @@
+import Email from "@/components/Email";
 import Navbar from "@/components/Navbar";
 import Socials from "@/components/Socials";
 // import { Inter } from 'next/font/google'
@@ -21,7 +22,7 @@ export default function Home() {
 
           </section>
           <article>
-            
+            <Email />
           </article>
         </div>
       </main>
