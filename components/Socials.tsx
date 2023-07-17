@@ -3,7 +3,11 @@ import { GrGithub } from "react-icons/gr";
 
 const Socials = () => {
   return (
-    <aside><GrGithub /></aside>
+    <aside>
+      <a href="https://github.com/diannegabriel" target="_blank">
+        <GrGithub />
+      </a>
+    </aside>
   );
 };
 
