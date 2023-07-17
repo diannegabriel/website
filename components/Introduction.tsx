@@ -21,7 +21,7 @@ const Introduction = () => {
         transition={{ duration: 0.5, delay: 0.7 }}
         className="text-4xl lgL:text-6xl font-titleFont font-semibold flex flex-col"
       >
-        Dianne Gabriel. <span className="text-textDark mt-2 lgL:mt-4">I make apps to save the world :)</span>
+        Dianne Gabriel. <span className="text-textDark mt-2 lgL:mt-4">I make apps to help the world :)</span>
       </motion.h1>
     </section>
   );
