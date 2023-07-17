@@ -19,7 +19,7 @@ export default function Home() {
             <Socials />
           </aside>
           <section>
-
+            asdasd
           </section>
           <article className="hidden xl:inline-flex w-32 h-full fixed right-0 bottom-0">
             <Email />
