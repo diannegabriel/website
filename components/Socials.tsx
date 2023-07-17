@@ -2,7 +2,7 @@ import React from "react";
 
 const Socials = () => {
   return (
-    <div>Socials</div>
+    <aside>Socials</aside>
   );
 };
 
