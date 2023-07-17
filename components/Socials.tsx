@@ -3,9 +3,11 @@ import { GrGithub } from "react-icons/gr";
 
 const Socials = () => {
   return (
-    <aside>
+    <aside className="w-full h-full flex flex-col items-center justify-end gap-4 text-textLight">
       <a href="https://github.com/diannegabriel" target="_blank">
-        <GrGithub />
+        <span>
+          <GrGithub />
+        </span>
       </a>
     </aside>
   );
