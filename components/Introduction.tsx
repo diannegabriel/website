@@ -7,14 +7,21 @@ const Introduction = () => {
       id="home"
       className="max-w-contentContainer mx-auto py-10 mdL:py-24 flex flex-col gap-4 lgL:gap-8 mdL:px-10 xl:px-4"
     >
-      <motion.h3 
-      initial={{ y: 10, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.5, delay: 0.6 }}
-      className="text-lg font-titleFont tracking-wide text-textAccent">
+      <motion.h3
+        initial={{ y: 10, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.6 }}
+        className="text-lg font-titleFont tracking-wide text-textAccent"
+      >
         Hello! My name is
       </motion.h3>
-      <h1>Dianne Gabriel. <span>I make apps :)</span></h1>
+      <motion.h1
+        initial={{ y: 10, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.7 }}
+      >
+        Dianne Gabriel. <span>I make apps :)</span>
+      </motion.h1>
     </section>
   );
 };

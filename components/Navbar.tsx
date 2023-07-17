@@ -66,7 +66,7 @@ const Navbar = () => {
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 0.6 }}
+              transition={{ delay: 0.5 }}
               className="px-4 py-2 rounded-md text-textAccent text-[15px] border border-textAccent hover:bg-hoverColor duration-300"
             >
               Résumé
