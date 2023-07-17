@@ -6,6 +6,7 @@ const Email = () => {
       <a href="mailto:mdianne.gabriel@gmail.com">
         <p className="text-sm rotate-90 w-72 tracking-wide text-textAccent">mdianne.gabriel@gmail.com</p>
       </a>
+      <span className="w-[2px] h-64 bg-textDark inline-flex"></span>
     </div>
   );
 };
