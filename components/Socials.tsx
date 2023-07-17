@@ -17,6 +17,7 @@ const Socials = () => {
           </span>
         </a>
       </div>
+      <div className="w-[2px] h-32 bg-textDark"></div>
     </div>
   );
 };
