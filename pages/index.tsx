@@ -4,6 +4,7 @@ import Socials from "@/components/Socials";
 // import { Inter } from 'next/font/google'
 import Head from "next/head";
 import { motion } from "framer-motion";
+import Introduction from "@/components/Introduction";
 
 // const inter = Inter({ subsets: ['latin'] })
 
@@ -24,7 +25,9 @@ export default function Home() {
           >
             <Socials />
           </motion.aside>
-          <article className="h-[88vh] mx-auto p-4">asdasd</article>
+          <article className="h-[88vh] mx-auto p-4">
+            <Introduction />
+          </article>
           <motion.aside
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
