@@ -9,6 +9,7 @@ const Introduction = () => {
       <h3 className="text-lg font-titleFont tracking-wide text-textAccent">
         Hello! My name is
       </h3>
+      <h1>Dianne Gabriel. <span>I make apps :)</span></h1>
     </section>
   );
 };
