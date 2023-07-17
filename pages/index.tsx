@@ -24,7 +24,7 @@ export default function Home() {
           >
             <Socials />
           </motion.aside>
-          <section></section>
+          <section className="h-[88vh] mx-auto p-4">asdasd</section>
           <motion.article
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
