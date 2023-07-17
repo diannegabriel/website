@@ -1,8 +1,9 @@
 import React from "react";
+import { GrGithub } from "react-icons/gr";
 
 const Socials = () => {
   return (
-    <aside>Socials</aside>
+    <aside><GrGithub /></aside>
   );
 };
 
