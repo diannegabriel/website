@@ -23,6 +23,7 @@ const Introduction = () => {
       >
         Dianne Gabriel. <span className="text-textDark mt-2 lgL:mt-4">I make apps to help the world :)</span>
       </motion.h1>
+      <p>I am a full stack developer with 2+ years of experience in the telecommunications industry.</p>
     </section>
   );
 };
