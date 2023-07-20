@@ -39,14 +39,25 @@ const Navbar = () => {
                 </motion.li>
               </a>
             </Link>
-            <Link href="#project">
+            <Link href="#experience">
               <a className="flex items-center gap-1 text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
                 <motion.li
                   initial={{ y: -10, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ duration: 0.5, delay: 0.3 }}
                 >
-                  Project
+                  Experience
+                </motion.li>
+              </a>
+            </Link>
+            <Link href="#project">
+              <a className="flex items-center gap-1 text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
+                <motion.li
+                  initial={{ y: -10, opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 0.4 }}
+                >
+                  Projects
                 </motion.li>
               </a>
             </Link>
@@ -55,7 +66,7 @@ const Navbar = () => {
                 <motion.li
                   initial={{ y: -10, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
-                  transition={{ duration: 0.5, delay: 0.4 }}
+                  transition={{ duration: 0.5, delay: 0.5 }}
                 >
                   Contact
                 </motion.li>
@@ -66,7 +77,7 @@ const Navbar = () => {
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 0.5 }}
+              transition={{ delay: 0.6 }}
               className="px-4 py-2 rounded-md text-textAccent text-[15px] border border-textAccent hover:bg-hoverColor duration-300"
             >
               Résumé
