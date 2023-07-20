@@ -6,6 +6,7 @@ import Gambles from "./work/Gambles";
 const Experience = () => {
   const [workConnexPrAn, setWorkConnexPrAn] = useState(true);
   const [workConnexJr, setWorkConnexJr] = useState(false);
+  const [workGambles, setworkGambles] = useState(false);
 
   const handleConnexPrAn = () => {
     setWorkConnexPrAn(true);
@@ -48,7 +49,7 @@ const Experience = () => {
             Connex
           </li>
           <li className={`${
-              workConnexPrAn
+              workGambles
                 ? "border-l-textAccent text-textAccent"
                 : "border-l-hoverColor text-hoverColor"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
@@ -57,7 +58,7 @@ const Experience = () => {
         </ul>
         {workConnexPrAn && <ConnexPrAn />}
         {workConnexJr && <ConnexJr />}
-        <Gambles />
+        {workGambles && <Gambles />}
       </div>
     </section>
   );
