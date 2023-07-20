@@ -13,7 +13,7 @@ const Introduction = () => {
         transition={{ duration: 0.5, delay: 0.6 }}
         className="text-lg font-titleFont tracking-wide text-textAccent"
       >
-        Hello! My name is
+        Hey there! My name is
       </motion.h3>
       <motion.h1
         initial={{ y: 10, opacity: 0 }}
@@ -21,9 +21,32 @@ const Introduction = () => {
         transition={{ duration: 0.5, delay: 0.7 }}
         className="text-4xl lgL:text-6xl font-titleFont font-semibold flex flex-col"
       >
-        Dianne Gabriel. <span className="text-textDark mt-2 lgL:mt-4">Helping the world, one line at a time!</span>
+        Dianne Gabriel.{" "}
+        <span className="text-textDark mt-2 lgL:mt-4">
+          Helping the world, one line at a time!
+        </span>
       </motion.h1>
-      <p>With over 2 years of experience in full stack development, I bring a wealth of knowledge and expertise to the table. My keen eye for details ensures that every aspect of my work is crafted with precision and accuracy. I have a strong skill set in creating dynamic and user-friendly applications that meet the needs of modern users. Additionally, my proficiency in cloud systems allows me to seamlessly integrate scalable and efficient solutions. As a dedicated professional, I am committed to delivering high-quality results and contributing to the success of any project I undertake.</p>
+      <p>
+        I've been diving into full-stack development for over 2 awesome years,
+        and I've got quite a bag of tricks up my sleeve! My keen eye for details
+        helps me craft work with precision and accuracy, leaving no stone
+        unturned.
+      </p>
+
+      <p>
+        Creating dynamic and user-friendly applications is kind of my jam – I
+        love meeting the needs of modern users and making their experience a
+        breeze. Plus, I'm pretty handy with cloud systems, so integrating
+        scalable and efficient solutions is like a walk in the park for me.
+      </p>
+
+      <p>
+        When it comes to work, I'm all in! As a dedicated professional, I'm
+        committed to delivering top-notch results and doing my part to make each
+        project a smashing success.
+      </p>
+
+      <p>Let's create something amazing together! 🚀</p>
     </section>
   );
 };
