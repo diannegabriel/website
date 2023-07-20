@@ -42,7 +42,7 @@ const About = () => {
             and more.
           </p>
           <p>Some of the technologies I have been working with:</p>
-          <ul>
+          <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-3 gap-2 mt-2">
             <li className="flex items-center gap-2">
               <span className="text-textAccent">
                 <AiFillStar />
@@ -101,7 +101,19 @@ const About = () => {
               <span className="text-textAccent">
                 <AiFillStar />
               </span>
+              MongoDB
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textAccent">
+                <AiFillStar />
+              </span>
               Python
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textAccent">
+                <AiFillStar />
+              </span>
+              Terraform
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textAccent">
