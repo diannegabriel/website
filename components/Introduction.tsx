@@ -32,10 +32,9 @@ const Introduction = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[800px] text-textDark font-medium"
       >
-        I've been into full-stack development for over 2 awesome years,
-        and I've got quite a bag of tricks up my sleeve! My keen eye for details
-        helps me craft work with precision and accuracy, leaving no stone
-        unturned.
+        I've been into full-stack development for over 2 awesome years, and I've
+        got quite a bag of tricks up my sleeve! My keen eye for details helps me
+        craft work with precision and accuracy, leaving no stone unturned.
       </motion.p>
 
       <motion.p
@@ -46,9 +45,9 @@ const Introduction = () => {
       >
         Creating dynamic and user-friendly applications is kind of my jam – I
         love meeting the needs of modern users and making their experience a
-        breeze. When it comes to work, I'm all in! As a dedicated professional, I'm
-        committed to delivering top-notch results and doing my part to make each
-        project a smashing success.
+        breeze. When it comes to work, I'm all in! As a dedicated professional,
+        I'm committed to delivering top-notch results and doing my part to make
+        each project a smashing success.
       </motion.p>
 
       <motion.p
