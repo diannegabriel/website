@@ -10,6 +10,9 @@ const About = () => {
         About Me
         <span className="hidden md:inline-flex md:w-60 lgL:w-72 h-[0.5px] bg-gray-700 ml-6"></span>
       </h2>
+      <div className="flex flex-col lgL:flex-row gap-16">
+        
+      </div>
     </section>
   );
 };
