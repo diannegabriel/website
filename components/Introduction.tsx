@@ -43,7 +43,8 @@ const Introduction = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[800px] text-textDark font-medium"
-      >        Creating dynamic and user-friendly applications is kind of my jam – I
+      >
+        Creating dynamic and user-friendly applications is kind of my jam – I
         love meeting the needs of modern users and making their experience a
         breeze. Plus, I'm pretty handy with cloud systems, so integrating
         scalable and efficient solutions is like a walk in the park for me.
@@ -54,7 +55,8 @@ const Introduction = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[800px] text-textDark font-medium"
-      >        When it comes to work, I'm all in! As a dedicated professional, I'm
+      >
+        When it comes to work, I'm all in! As a dedicated professional, I'm
         committed to delivering top-notch results and doing my part to make each
         project a smashing success.
       </motion.p>
@@ -64,7 +66,8 @@ const Introduction = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[800px] text-textDark font-medium"
-      >        Let's create something amazing together! 🚀
+      >
+        Let's create something amazing together! 🚀
       </motion.p>
     </section>
   );
