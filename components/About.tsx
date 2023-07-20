@@ -39,7 +39,7 @@ const About = () => {
           </p>
           <p>Some of the technologies I have been working with:</p>
           <ul>
-            <li><span><AiFillStar /></span>JavaScript (ES6+)</li>
+            <li className="flex items-center gap-2"><span className="text-textAccent"><AiFillStar /></span>JavaScript (ES6+)</li>
           </ul>
         </div>
       </div>
