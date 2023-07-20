@@ -40,7 +40,8 @@ module.exports = {
         textAccent: "#EC8D00",
         textLight: "#F9F4FF",
         textDark: "#9A92A8",
-        hoverColor: "rgba(255, 214, 100, 0.2)"
+        hoverColor: "rgba(255, 214, 100, 0.2)",
+        photoHover: "#4D2675"
       }
     },
   },

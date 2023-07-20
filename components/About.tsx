@@ -147,6 +147,9 @@ const About = () => {
                 src={dianneJpg}
                 alt="Dianne Gabriel"
               />
+              <div className="hidden lgL:inline-block absolute w-full h-80 bg-photoHover/20 rounded-md top-0 left-0 group-hover:bg-transparent duration-300">
+
+              </div>
             </div>
           </div>
         </div>
