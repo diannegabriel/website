@@ -5,6 +5,7 @@ import Socials from "@/components/Socials";
 import Head from "next/head";
 import { motion } from "framer-motion";
 import Introduction from "@/components/Introduction";
+import About from "@/components/About";
 
 // const inter = Inter({ subsets: ['latin'] })
 
@@ -27,6 +28,7 @@ export default function Home() {
           </motion.aside>
           <article className="h-[88vh] w-full mx-auto p-4">
             <Introduction />
+            <About />
           </article>
           <motion.aside
             initial={{ opacity: 0 }}
