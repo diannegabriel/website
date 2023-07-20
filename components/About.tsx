@@ -137,14 +137,18 @@ const About = () => {
             </li>
           </ul>
         </div>
-        <div>
-          <Image
-            className="rounded-lg object-cover"
-            width={320}
-            height={320}
-            src={dianneJpg}
-            alt="Dianne Gabriel"
-          />
+        <div className="w-full lgL:w-1/3 h-80 relative group">
+          <div className="absolute w-full h-80 -left-6 -top-6 rounded-lg">
+            <div className="w-full h-full relative z-20 flex pl-6 lgL:pl-0">
+              <Image
+                className="rounded-lg object-cover"
+                width={320}
+                height={320}
+                src={dianneJpg}
+                alt="Dianne Gabriel"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>
