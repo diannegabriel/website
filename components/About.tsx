@@ -15,9 +15,7 @@ const About = () => {
           <p>
             I got into the world of tech and programming languages as early as
             10 years old. I clearly remember coding my very first HTML, CSS, and
-            JavaScript project and immediately got hooked (had to go through
-            hoops to integrate Friendster custom profiles, but my favourite
-            thing to work on were MySpace profiles)!
+            JavaScript project and immediately got hooked! My favourite things to work on were custom Myspace profiles and also Friendster themes (even though I had to go through hoops to integrate it!)
           </p>
 
           <p>
@@ -35,6 +33,10 @@ const About = () => {
             people's problems. I strive to make self-care, motivational, and
             meaningful products that assist people in their daily struggles.
           </p>
+          <p>
+            Currently, I have experience in variety of fields such as: web development, telecommunications, cloud systems, CI/CD, marketing, and more.
+          </p>
+          <p>Some of the technologies I have been working with:</p>
         </div>
       </div>
     </section>
