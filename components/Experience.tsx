@@ -9,12 +9,12 @@ const Experience = () => {
   const handleConnexPrAn = () => {
     setWorkConnexPrAn(true);
     setWorkConnexJr(false);
-  }
+  };
 
   const handleConnexJr = () => {
     setWorkConnexPrAn(false);
     setWorkConnexJr(true);
-  }
+  };
   return (
     <section
       id="experience"
@@ -26,10 +26,18 @@ const Experience = () => {
       </h2>
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
         <ul className="md:w-32 flex flex-col">
-          <li className="border-l-2 border-l-textAccent text-textDark bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium">Connex</li>
-          <li className="border-l-2 border-l-hoverColor text-textDark bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium">Connex</li>
-          <li className="border-l-2 border-l-hoverColor text-textDark bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium">Connex</li>
-          <li className="border-l-2 border-l-hoverColor text-textDark bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium">Connex</li>
+          <li className="border-l-2 border-l-textAccent text-textDark bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium">
+            Connex
+          </li>
+          <li className="border-l-2 border-l-hoverColor text-textDark bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium">
+            Connex
+          </li>
+          <li className="border-l-2 border-l-hoverColor text-textDark bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium">
+            Connex
+          </li>
+          <li className="border-l-2 border-l-hoverColor text-textDark bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium">
+            Connex
+          </li>
         </ul>
         <ConnexPrAn />
         <ConnexJr />
