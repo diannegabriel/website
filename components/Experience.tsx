@@ -38,15 +38,20 @@ const Experience = () => {
           </li>
           <li
             onClick={handleConnexJr}
-            className="border-l-2 border-l-hoverColor text-textDark bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium"
+            className={`${
+              workConnexJr
+                ? "border-l-textAccent text-textAccent"
+                : "border-l-hoverColor text-hoverColor"
+            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
           >
             Connex
           </li>
-          <li className="border-l-2 border-l-hoverColor text-textDark bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium">
-            Connex
-          </li>
-          <li className="border-l-2 border-l-hoverColor text-textDark bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium">
-            Connex
+          <li className={`${
+              workConnexPrAn
+                ? "border-l-textAccent text-textAccent"
+                : "border-l-hoverColor text-hoverColor"
+            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
+            Gambles
           </li>
         </ul>
         {workConnexPrAn && <ConnexPrAn />}
