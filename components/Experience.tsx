@@ -10,6 +10,11 @@ const Experience = () => {
         Experience
         <span className="hidden md:inline-flex md:w-60 lgL:w-72 h-[0.5px] bg-gray-700 ml-6"></span>
       </h2>
+      <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
+        <ul>
+          <li className="border-l-2 border-l-textAccent text-textDark bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium">Connex</li>
+        </ul>
+      </div>
     </section>
   );
 };
