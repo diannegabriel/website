@@ -45,8 +45,8 @@ const Experience = () => {
             Connex
           </li>
         </ul>
-        <ConnexPrAn />
-        <ConnexJr />
+        {workConnexPrAn && <ConnexPrAn />}
+        {workConnexJr && <ConnexJr />}
       </div>
     </section>
   );
