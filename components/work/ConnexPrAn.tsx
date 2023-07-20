@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { VscDebugBreakpointLog } from "react-icons/vsc"
+import { VscDebugBreakpointLog } from "react-icons/vsc";
 
 const ConnexPrAn = () => {
   return (
@@ -20,8 +20,11 @@ const ConnexPrAn = () => {
         February 2022 - March 2023
       </p>
       <ul>
-        <li className="flex flex-row items-center gap-2 text-base text-textDark"><span><VscDebugBreakpointLog /></span>
-        Led contact center design and project team.
+        <li className="flex items-center gap-2 text-base text-textDark">
+          <span className="text-textAccent">
+            <VscDebugBreakpointLog />
+          </span>
+          Led contact center design and project team.
         </li>
       </ul>
     </motion.div>
