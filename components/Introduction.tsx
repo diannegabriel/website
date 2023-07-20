@@ -26,27 +26,46 @@ const Introduction = () => {
           Helping the world, one line at a time!
         </span>
       </motion.h1>
-      <p className="text-base md:max-w-[650px] text-textDark font-medium">
+      <motion.p
+        initial={{ y: 10, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.8 }}
+        className="text-base md:max-w-[650px] text-textDark font-medium"
+      >
         I've been diving into full-stack development for over 2 awesome years,
         and I've got quite a bag of tricks up my sleeve! My keen eye for details
         helps me craft work with precision and accuracy, leaving no stone
         unturned.
-      </p>
+      </motion.p>
 
-      <p className="text-base md:max-w-[650px] text-textDark font-medium">
-        Creating dynamic and user-friendly applications is kind of my jam – I
+      <motion.p
+        initial={{ y: 10, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.8 }}
+        className="text-base md:max-w-[650px] text-textDark font-medium"
+      >        Creating dynamic and user-friendly applications is kind of my jam – I
         love meeting the needs of modern users and making their experience a
         breeze. Plus, I'm pretty handy with cloud systems, so integrating
         scalable and efficient solutions is like a walk in the park for me.
-      </p>
+      </motion.p>
 
-      <p className="text-base md:max-w-[650px] text-textDark font-medium">
-        When it comes to work, I'm all in! As a dedicated professional, I'm
+      <motion.p
+        initial={{ y: 10, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.8 }}
+        className="text-base md:max-w-[650px] text-textDark font-medium"
+      >        When it comes to work, I'm all in! As a dedicated professional, I'm
         committed to delivering top-notch results and doing my part to make each
-        project a smashing success. 
-      </p>
+        project a smashing success.
+      </motion.p>
 
-      <p  className="text-base text-textDark font-medium">Let's create something amazing together! 🚀</p>
+      <motion.p
+        initial={{ y: 10, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.8 }}
+        className="text-base md:max-w-[650px] text-textDark font-medium"
+      >        Let's create something amazing together! 🚀
+      </motion.p>
     </section>
   );
 };
