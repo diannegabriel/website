@@ -13,7 +13,7 @@ const ConnexPrAn = () => {
         Programmer Analyst{" "}
         <span className="text-textAccent tracking-wide">@ Connex Telecommunications</span>
       </h3>
-      <p>February 2022 - March 2023</p>
+      <p className="text-sm mt-1 font-medium text-textDark">February 2022 - March 2023</p>
     </motion.div>
   );
 };
