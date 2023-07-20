@@ -1,5 +1,6 @@
 import React from "react";
 import { AiFillStar } from "react-icons/ai";
+import { dianneJpg } from "@/public/assets";
 
 const About = () => {
   return (
@@ -136,7 +137,7 @@ const About = () => {
           </ul>
         </div>
         <div>
-          
+
         </div>
       </div>
     </section>
