@@ -25,7 +25,7 @@ export default function Home() {
           >
             <Socials />
           </motion.aside>
-          <article className="h-[88vh] mx-auto p-4">
+          <article className="h-[88vh] w-full mx-auto p-4">
             <Introduction />
           </article>
           <motion.aside
