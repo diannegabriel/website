@@ -138,8 +138,8 @@ const About = () => {
           </ul>
         </div>
         <div className="w-full lgL:w-1/3 h-80 relative group">
-          <div className="absolute w-full h-80 left-10 top-10 rounded-lg">
-            <div className="w-full h-full relative z-20 flex pl-6 lgL:pl-0">
+          <div className="absolute w-full h-80 md:left-10 md:top-10 rounded-lg">
+            <div className="w-full h-full relative z-20 flex justify-center lgL:pl-0">
               <Image
                 className="rounded-lg object-cover"
                 width={320}
