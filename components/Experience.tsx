@@ -2,9 +2,9 @@ import React from 'react'
 
 const Experience = () => {
   return (
-    <div>
+    <section id="experience" className="max-w-containersXS mx-auto py-10 lgL:py-24 px-4">
       
-    </div>
+    </section>
   )
 }
 
