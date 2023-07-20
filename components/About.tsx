@@ -49,6 +49,78 @@ const About = () => {
               </span>
               JavaScript (ES6+)
             </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textAccent">
+                <AiFillStar />
+              </span>
+              TypeScript
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textAccent">
+                <AiFillStar />
+              </span>
+              Node.js
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textAccent">
+                <AiFillStar />
+              </span>
+              React
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textAccent">
+                <AiFillStar />
+              </span>
+              Next.js
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textAccent">
+                <AiFillStar />
+              </span>
+              HTML
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textAccent">
+                <AiFillStar />
+              </span>
+              CSS/SCSS
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textAccent">
+                <AiFillStar />
+              </span>
+              Tailwind CSS
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textAccent">
+                <AiFillStar />
+              </span>
+              SQL
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textAccent">
+                <AiFillStar />
+              </span>
+              Python
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textAccent">
+                <AiFillStar />
+              </span>
+              Genesys Cloud
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textAccent">
+                <AiFillStar />
+              </span>
+              Microsoft Azure
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textAccent">
+                <AiFillStar />
+              </span>
+              AWS
+            </li>
           </ul>
         </div>
       </div>
