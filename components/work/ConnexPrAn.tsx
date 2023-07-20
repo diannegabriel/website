@@ -20,7 +20,9 @@ const ConnexPrAn = () => {
         February 2022 - March 2023
       </p>
       <ul>
-        <li><span><VscDebugBreakpointLog /></span></li>
+        <li className="flex flex-row items-center gap-2 text-base text-textDark"><span><VscDebugBreakpointLog /></span>
+        Led contact center design and project team.
+        </li>
       </ul>
     </motion.div>
   );
