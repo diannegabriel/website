@@ -138,7 +138,7 @@ const About = () => {
           </ul>
         </div>
         <div className="w-full lgL:w-1/3 h-80 relative group">
-          <div className="absolute w-full h-80 -left-6 -top-6 rounded-lg">
+          <div className="absolute w-full h-80 left-10 top-10 rounded-lg">
             <div className="w-full h-full relative z-20 flex pl-6 lgL:pl-0">
               <Image
                 className="rounded-lg object-cover"
