@@ -38,6 +38,9 @@ const About = () => {
             Currently, I have experience in variety of fields such as: web development, telecommunications, cloud systems, CI/CD, marketing, and more.
           </p>
           <p>Some of the technologies I have been working with:</p>
+          <ul>
+            <li><span><AiFillStar /></span>JavaScript (ES6+)</li>
+          </ul>
         </div>
       </div>
     </section>
