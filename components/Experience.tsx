@@ -4,6 +4,7 @@ import ConnexPrAn from "./work/ConnexPrAn";
 
 const Experience = () => {
   const [workConnexPrAn, setWorkConnexPrAn] = useState(true);
+  const [workConnexJr, setWorkConnexJr] = useState(false);
   return (
     <section
       id="experience"
