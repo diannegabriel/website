@@ -19,7 +19,7 @@ const ConnexPrAn = () => {
       <p className="text-sm mt-1 font-medium text-textDark">
         February 2022 - March 2023
       </p>
-      <ul>
+      <ul className="flex flex-col gap-3 pt-4">
         <li className="flex items-center gap-2 text-base text-textDark">
           <span className="text-textAccent">
             <VscDebugBreakpointLog />
