@@ -20,33 +20,33 @@ const ConnexPrAn = () => {
         February 2022 - March 2023
       </p>
       <ul className="flex flex-col gap-3 pt-4">
-        <li className="flex items-center gap-2 text-base text-textDark">
-          <span className="text-textAccent">
+        <li className="flex gap-2 text-base text-textDark">
+          <span className="text-textAccent mt-1">
             <VscDebugBreakpointLog />
           </span>
           Led contact center design and project team.
         </li>
-        <li className="flex items-center gap-2 text-base text-textDark">
-          <span className="text-textAccent">
+        <li className="flex gap-2 text-base text-textDark">
+          <span className="text-textAccent mt-1">
             <VscDebugBreakpointLog />
           </span>
           Built and tested apps, integrated with Genesys Cloud.
         </li>
-        <li className="flex items-center gap-2 text-base text-textDark">
-          <span className="text-textAccent">
+        <li className="flex gap-2 text-base text-textDark">
+          <span className="text-textAccent mt-1">
             <VscDebugBreakpointLog />
           </span>
           Developed internal/client apps using Node.js, Javascript, React,
           Angular, Python, and Pandas.
         </li>
-        <li className="flex items-center gap-2 text-base text-textDark">
-          <span className="text-textAccent">
+        <li className="flex gap-2 text-base text-textDark">
+          <span className="text-textAccent mt-1">
             <VscDebugBreakpointLog />
           </span>
           Provided top-notch customer tech assistance across domains.
         </li>
-        <li className="flex items-center gap-2 text-base text-textDark">
-          <span className="text-textAccent">
+        <li className="flex gap-2 text-base text-textDark">
+          <span className="text-textAccent mt-1">
             <VscDebugBreakpointLog />
           </span>
           Conducted effective demo sessions and training for employees and
