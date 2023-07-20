@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ConnexJr from "./work/ConnexJr";
 import ConnexPrAn from "./work/ConnexPrAn";
+import Gambles from "./work/Gambles";
 
 const Experience = () => {
   const [workConnexPrAn, setWorkConnexPrAn] = useState(true);
@@ -56,6 +57,7 @@ const Experience = () => {
         </ul>
         {workConnexPrAn && <ConnexPrAn />}
         {workConnexJr && <ConnexJr />}
+        <Gambles />
       </div>
     </section>
   );
