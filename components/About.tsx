@@ -8,6 +8,7 @@ const About = () => {
     >
       <h2 className="font-titleFont text-2xl font-semibold flex items-center">
         About Me
+        <span className="hidden md:inline-flex md:w-60 lgL:w-72 h-[0.5px] bg-gray-700 ml-6"></span>
       </h2>
     </section>
   );
