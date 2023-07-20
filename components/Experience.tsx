@@ -20,7 +20,7 @@ const Experience = () => {
           <li className="border-l-2 border-l-hoverColor text-textDark bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium">Connex</li>
         </ul>
         <ConnexPrAn />
-        <ConnexJr />
+        {/* <ConnexJr /> */}
       </div>
     </section>
   );
