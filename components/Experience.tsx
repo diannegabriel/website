@@ -11,11 +11,19 @@ const Experience = () => {
   const handleConnexPrAn = () => {
     setWorkConnexPrAn(true);
     setWorkConnexJr(false);
+    setworkGambles(false);
   };
 
   const handleConnexJr = () => {
     setWorkConnexPrAn(false);
     setWorkConnexJr(true);
+    setworkGambles(false);
+  };
+
+  const handleGambles = () => {
+    setWorkConnexPrAn(false);
+    setWorkConnexJr(false);
+    setworkGambles(true);
   };
   return (
     <section
@@ -48,11 +56,14 @@ const Experience = () => {
           >
             Connex
           </li>
-          <li className={`${
+          <li
+            onClick={handleGambles}
+            className={`${
               workGambles
                 ? "border-l-textAccent text-textAccent"
                 : "border-l-hoverColor text-hoverColor"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
+            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+          >
             Gambles
           </li>
         </ul>
