@@ -16,7 +16,9 @@ const About = () => {
           <p>
             I got into the world of tech and programming languages as early as
             10 years old. I clearly remember coding my very first HTML, CSS, and
-            JavaScript project and immediately got hooked! My favourite things to work on were custom Myspace profiles and also Friendster themes (even though I had to go through hoops to integrate it!)
+            JavaScript project and immediately got hooked! My favourite things
+            to work on were custom Myspace profiles and also Friendster themes
+            (even though I had to go through hoops to integrate it!)
           </p>
 
           <p>
@@ -24,8 +26,8 @@ const About = () => {
             having the creative freedom over it. While tech wasn't my first
             choice as a career after high school, my passion and love for coding
             has always lived within me. Finally, after deciding to switch
-            careers, I enrolled to Lighthouse Labs Full Stack Web Development Bootcamp
-            in 2021.
+            careers, I enrolled to Lighthouse Labs Full Stack Web Development
+            Bootcamp in 2021.
           </p>
 
           <p>
@@ -35,11 +37,18 @@ const About = () => {
             meaningful products that assist people in their daily struggles.
           </p>
           <p>
-            Currently, I have experience in variety of fields such as: web development, telecommunications, cloud systems, CI/CD, marketing, and more.
+            Currently, I have experience in variety of fields such as: web
+            development, telecommunications, cloud systems, CI/CD, marketing,
+            and more.
           </p>
           <p>Some of the technologies I have been working with:</p>
           <ul>
-            <li className="flex items-center gap-2"><span className="text-textAccent"><AiFillStar /></span>JavaScript (ES6+)</li>
+            <li className="flex items-center gap-2">
+              <span className="text-textAccent">
+                <AiFillStar />
+              </span>
+              JavaScript (ES6+)
+            </li>
           </ul>
         </div>
       </div>
