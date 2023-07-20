@@ -10,6 +10,11 @@ const Experience = () => {
     setWorkConnexPrAn(true);
     setWorkConnexJr(false);
   }
+
+  const handleConnexJr = () => {
+    setWorkConnexPrAn(false);
+    setWorkConnexJr(true);
+  }
   return (
     <section
       id="experience"
