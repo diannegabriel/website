@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { AiFillStar } from "react-icons/ai";
 import { dianneJpg } from "@/public/assets";
 
@@ -137,7 +138,7 @@ const About = () => {
           </ul>
         </div>
         <div>
-
+          <Image className="rounded-lg object-cover" width={320} height={320} src={dianneJpg} alt="Dianne Gabriel" />
         </div>
       </div>
     </section>
