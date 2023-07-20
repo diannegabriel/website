@@ -3,9 +3,14 @@ import { motion } from 'framer-motion'
 
 const ConnexPrAn = () => {
   return (
-    <div>
+    <motion.div
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    transition={{ delay: 0.1 }}
+    className="w-full"
+    >
       Connex Programmer Analyst
-    </div>
+    </motion.div>
   )
 }
 
