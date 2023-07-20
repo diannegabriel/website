@@ -9,7 +9,8 @@ const ConnexPrAn = () => {
       transition={{ delay: 0.1 }}
       className="w-full"
     >
-      <h3>Programmer Analyst</h3>
+      <h3 className="flex gap-1 font-medium text-xl font-titleFont">Programmer Analyst</h3>
+      <p>October 2021 - March 2023</p>
     </motion.div>
   );
 };
