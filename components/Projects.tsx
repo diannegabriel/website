@@ -115,11 +115,11 @@ const Projects = () => {
           </div>
         </div>
         <div className="flex items-center justify-center">
-          <button className="w-36 h-12 rounded-md text-textAccent text-[15px] border border-textAccent hover:bg-hoverColor duration-300">
-            <a href="https://github.com/diannegabriel" target="_blank">
+          <a href="https://github.com/diannegabriel" target="_blank">
+            <button className="w-36 h-12 rounded-md text-textAccent text-[15px] border border-textAccent hover:bg-hoverColor duration-300">
               View more
-            </a>
-          </button>
+            </button>
+          </a>
         </div>
       </div>
     </section>
