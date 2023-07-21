@@ -99,7 +99,13 @@ const Navbar = () => {
           <div
             ref={(node) => (ref.current = node)}
             className="absolute mdL:hidden top-0 right-0 w-full h-screen bg-black bg-opacity-50 flex flex-col items-end"
-          ></div>
+          >
+            <motion.div
+              initial={{ x: 20, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 0.1 }}
+            ></motion.div>
+          </div>
         )}
       </div>
     </nav>
