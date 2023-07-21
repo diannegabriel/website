@@ -10,7 +10,7 @@ const Projects = () => {
         <span className="hidden md:inline-flex md:w-60 lgL:w-72 h-[0.5px] bg-gray-700 ml-6"></span>
       </h2>
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
-        <div>
+        <div className="flex flex-col xl:flex-row gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
             href="https://github.com/diannegabriel/todo-list"
