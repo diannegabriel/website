@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { motivadid } from "@/public/assets";
+import { hypehub, motivadid } from "@/public/assets";
 import { GrGithub } from "react-icons/gr";
 import { BsBrowserChrome } from "react-icons/bs";
 import { BiSolidVideos } from "react-icons/bi";
@@ -60,7 +60,7 @@ const Projects = () => {
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src={motivadid}
+                src={hypehub}
                 alt="MotivaDid App"
               />
             </div>
