@@ -122,94 +122,104 @@ const Navbar = () => {
                 onClick={() => setToggleMenu(false)}
                 className="text-3xl text-textAccent cursor-pointer hover:text-red-500 absolute top-4 right-4 "
               />
-              <div className="flex flex-col items-center gap-7">
-                <ul className="flex flex-col text-[15px] gap-7">
-                  <Link href="#home">
-                    <a className="flex items-center gap-1 text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
-                      <motion.li
-                        initial={{ x: 20, opacity: 0 }}
-                        animate={{ x: 0, opacity: 1 }}
-                        transition={{
-                          duration: 0.5,
-                          delay: 0.2,
-                          ease: "easeIn",
-                        }}
-                      >
-                        Home
-                      </motion.li>
-                    </a>
-                  </Link>
-                  <Link href="#about">
-                    <a className="flex items-center gap-1 text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
-                      <motion.li
-                        initial={{ x: 20, opacity: 0 }}
-                        animate={{ x: 0, opacity: 1 }}
-                        transition={{
-                          duration: 0.5,
-                          delay: 0.2,
-                          ease: "easeIn",
-                        }}
-                      >
-                        About
-                      </motion.li>
-                    </a>
-                  </Link>
-                  <Link href="#experience">
-                    <a className="flex items-center gap-1 text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
-                      <motion.li
-                        initial={{ x: 20, opacity: 0 }}
-                        animate={{ x: 0, opacity: 1 }}
-                        transition={{
-                          duration: 0.5,
-                          delay: 0.3,
-                          ease: "easeIn",
-                        }}
-                      >
-                        Experience
-                      </motion.li>
-                    </a>
-                  </Link>
-                  <Link href="#project">
-                    <a className="flex items-center gap-1 text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
-                      <motion.li
-                        initial={{ x: 20, opacity: 0 }}
-                        animate={{ x: 0, opacity: 1 }}
-                        transition={{
-                          duration: 0.5,
-                          delay: 0.4,
-                          ease: "easeIn",
-                        }}
-                      >
-                        Projects
-                      </motion.li>
-                    </a>
-                  </Link>
-                  <Link href="#contact">
-                    <a className="flex items-center gap-1 text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
-                      <motion.li
-                        initial={{ x: 20, opacity: 0 }}
-                        animate={{ x: 0, opacity: 1 }}
-                        transition={{
-                          duration: 0.5,
-                          delay: 0.5,
-                          ease: "easeIn",
-                        }}
-                      >
-                        Contact
-                      </motion.li>
-                    </a>
-                  </Link>
-                </ul>
-                <a href="/assets/Dianne_Gabriel_Resume.pdf" target="_blank">
-                  <motion.button
-                    initial={{ x: 20, opacity: 0 }}
-                    animate={{ x: 0, opacity: 1 }}
-                    transition={{ delay: 0.6, ease: "easeIn" }}
-                    className="w-32 h-10 rounded-md text-textAccent text-[15px] border border-textAccent hover:bg-hoverColor duration-300"
-                  >
-                    Resume
-                  </motion.button>
-                </a>
+              <div className="h-full flex flex-col items-center justify-between gap-7">
+                <div className="flex flex-col items-center gap-7">
+                  <ul className="flex flex-col text-[15px] gap-7">
+                    <Link href="#home">
+                      <a className="flex items-center gap-1 text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
+                        <motion.li
+                          initial={{ x: 20, opacity: 0 }}
+                          animate={{ x: 0, opacity: 1 }}
+                          transition={{
+                            duration: 0.5,
+                            delay: 0.2,
+                            ease: "easeIn",
+                          }}
+                        >
+                          Home
+                        </motion.li>
+                      </a>
+                    </Link>
+                    <Link href="#about">
+                      <a className="flex items-center gap-1 text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
+                        <motion.li
+                          initial={{ x: 20, opacity: 0 }}
+                          animate={{ x: 0, opacity: 1 }}
+                          transition={{
+                            duration: 0.5,
+                            delay: 0.2,
+                            ease: "easeIn",
+                          }}
+                        >
+                          About
+                        </motion.li>
+                      </a>
+                    </Link>
+                    <Link href="#experience">
+                      <a className="flex items-center gap-1 text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
+                        <motion.li
+                          initial={{ x: 20, opacity: 0 }}
+                          animate={{ x: 0, opacity: 1 }}
+                          transition={{
+                            duration: 0.5,
+                            delay: 0.3,
+                            ease: "easeIn",
+                          }}
+                        >
+                          Experience
+                        </motion.li>
+                      </a>
+                    </Link>
+                    <Link href="#project">
+                      <a className="flex items-center gap-1 text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
+                        <motion.li
+                          initial={{ x: 20, opacity: 0 }}
+                          animate={{ x: 0, opacity: 1 }}
+                          transition={{
+                            duration: 0.5,
+                            delay: 0.4,
+                            ease: "easeIn",
+                          }}
+                        >
+                          Projects
+                        </motion.li>
+                      </a>
+                    </Link>
+                    <Link href="#contact">
+                      <a className="flex items-center gap-1 text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
+                        <motion.li
+                          initial={{ x: 20, opacity: 0 }}
+                          animate={{ x: 0, opacity: 1 }}
+                          transition={{
+                            duration: 0.5,
+                            delay: 0.5,
+                            ease: "easeIn",
+                          }}
+                        >
+                          Contact
+                        </motion.li>
+                      </a>
+                    </Link>
+                  </ul>
+                  <a href="/assets/Dianne_Gabriel_Resume.pdf" target="_blank">
+                    <motion.button
+                      initial={{ x: 20, opacity: 0 }}
+                      animate={{ x: 0, opacity: 1 }}
+                      transition={{ delay: 0.6, ease: "easeIn" }}
+                      className="w-32 h-10 rounded-md text-textAccent text-[15px] border border-textAccent hover:bg-hoverColor duration-300"
+                    >
+                      Resume
+                    </motion.button>
+                  </a>
+                </div>
+                <div className="italic text-textDark text-xs">
+                  <p>
+                    Coded in Visual Studio Code. Built with Next.js and Tailwind
+                    CSS. Deployed with Vercel. Design inspired by{" "}
+                    <a href="https://v4.brittanychiang.com/">Brittany Chiang</a>
+                    .
+                  </p>
+                </div>
               </div>
             </motion.div>
           </div>
