@@ -114,6 +114,11 @@ const Projects = () => {
             </div>
           </div>
         </div>
+        <div className="mt-12 flex items-center justify-center">
+          <button className="w-36 h-12 rounded-md text-textAccent text-[13px] border border-textAccent hover:bg-hoverColor duration-300">
+            View other repositories
+          </button>
+        </div>
       </div>
     </section>
   );
