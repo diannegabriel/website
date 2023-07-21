@@ -28,7 +28,7 @@ const About = () => {
             having the creative freedom over it. While tech wasn't my first
             choice as a career after high school, my passion and love for coding
             has always lived within me. Finally, after deciding to switch
-            careers, I enrolled to Lighthouse Labs Full Stack Web Development
+            careers, I enrolled to Lighthouse Labs' Full Stack Web Development
             Bootcamp in 2021.
           </p>
 
