@@ -1,10 +1,11 @@
 import { dianneGif } from "@/public/assets";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 
 const Navbar = () => {
+  const ref = useRef<string | any>("");
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <nav className="w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyBgColor px-4">
