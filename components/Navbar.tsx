@@ -115,6 +115,7 @@ const Navbar = () => {
         {toggleMenu && (
           <div
             ref={(node) => (ref.current = node)}
+            onClick={handleClick}
             className="absolute mdL:hidden top-0 right-0 w-full h-screen bg-black bg-opacity-50 flex flex-col items-end"
           >
             <motion.div
