@@ -14,7 +14,7 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://github.com/diannegabriel/todo-list"
+            href="https://diannegabriel.github.io/todo-list/"
             target="_blank"
           >
             <div>
@@ -44,7 +44,7 @@ const Projects = () => {
               <li>Local Storage</li>
             </ul>
             <div>
-              <a href=""></a>
+              <a href="https://github.com/diannegabriel/todo-list"><GrGithub /></a>
             </div>
           </div>
         </div>
