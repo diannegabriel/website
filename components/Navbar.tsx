@@ -8,6 +8,11 @@ import { MdClose } from "react-icons/md";
 const Navbar = () => {
   const ref = useRef<string | any>("");
   const [toggleMenu, setToggleMenu] = useState(false);
+  const handleClick = (e:any) => {
+    if(e.target.contains(ref.current)) {
+      setToggleMenu(false)
+    }
+  }
   return (
     <nav className="w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyBgColor px-4">
       <div className="max-w-container h-full mx-auto py-1 font-titleFont font-medium flex items-center justify-between">
