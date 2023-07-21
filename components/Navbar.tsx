@@ -218,14 +218,22 @@ const Navbar = () => {
                     </motion.button>
                   </a>
                 </div>
-                <div className="italic text-textDark text-xs">
+                <motion.div className="italic text-textDark text-xs"
+                initial={{ x: 20, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{
+                  duration: 0.5,
+                  delay: 0.7,
+                  ease: "easeIn",
+                }}
+                >
                   <p>
                     Coded in Visual Studio Code. Built with Next.js and Tailwind
                     CSS. Deployed with Vercel. Design inspired by{" "}
                     <a href="https://v4.brittanychiang.com/">Brittany Chiang</a>
                     .
                   </p>
-                </div>
+                </motion.div>
               </div>
             </motion.div>
           </div>
