@@ -106,7 +106,10 @@ const Navbar = () => {
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.1 }}
               className="w-[80%] h-full overflow-y-scroll scrollbarHide bg-[#262452] flex flex-col items-center px-4 py-10 relative"
-            ></motion.div>
+            >
+              <MdClose onClick={() => setToggleMenu(false)}
+              className="text-3xl text-textAccent cursor-pointer hover:text-red-500 absolute top-4 right-4 " />
+            </motion.div>
           </div>
         )}
       </div>
