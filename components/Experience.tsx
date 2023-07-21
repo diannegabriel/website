@@ -42,7 +42,7 @@ const Experience = () => {
               workConnexPrAn
                 ? "border-l-textAccent text-textAccent"
                 : "border-l-hoverColor text-hoverColor"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+            } border-l-2 bg-transparent hover:bg-[#262452] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
           >
             Connex
           </li>
@@ -52,7 +52,7 @@ const Experience = () => {
               workConnexJr
                 ? "border-l-textAccent text-textAccent"
                 : "border-l-hoverColor text-hoverColor"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+            } border-l-2 bg-transparent hover:bg-[#262452] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
           >
             Connex
           </li>
@@ -62,7 +62,7 @@ const Experience = () => {
               workGambles
                 ? "border-l-textAccent text-textAccent"
                 : "border-l-hoverColor text-hoverColor"
-            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+            } border-l-2 bg-transparent hover:bg-[#262452] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
           >
             Gambles
           </li>
