@@ -80,7 +80,7 @@ const Navbar = () => {
               transition={{ delay: 0.6 }}
               className="px-4 py-2 rounded-md text-textAccent text-[15px] border border-textAccent hover:bg-hoverColor duration-300"
             >
-              Résumé
+              Resume
             </motion.button>
           </a>
         </div>
