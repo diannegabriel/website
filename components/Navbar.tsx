@@ -132,7 +132,7 @@ const Navbar = () => {
                         transition={{
                           duration: 0.5,
                           delay: 0.2,
-                          ease: "easeIn"
+                          ease: "easeIn",
                         }}
                       >
                         Home
@@ -144,8 +144,11 @@ const Navbar = () => {
                       <motion.li
                         initial={{ y: -10, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
-                        transition={{ duration: 0.5, delay: 0.2,
-                          ease: "easeIn" }}
+                        transition={{
+                          duration: 0.5,
+                          delay: 0.2,
+                          ease: "easeIn",
+                        }}
                       >
                         About
                       </motion.li>
@@ -156,8 +159,11 @@ const Navbar = () => {
                       <motion.li
                         initial={{ y: -10, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
-                        transition={{ duration: 0.5, delay: 0.3,
-                          ease: "easeIn" }}
+                        transition={{
+                          duration: 0.5,
+                          delay: 0.3,
+                          ease: "easeIn",
+                        }}
                       >
                         Experience
                       </motion.li>
@@ -168,8 +174,11 @@ const Navbar = () => {
                       <motion.li
                         initial={{ y: -10, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
-                        transition={{ duration: 0.5, delay: 0.4,
-                          ease: "easeIn" }}
+                        transition={{
+                          duration: 0.5,
+                          delay: 0.4,
+                          ease: "easeIn",
+                        }}
                       >
                         Projects
                       </motion.li>
@@ -180,8 +189,11 @@ const Navbar = () => {
                       <motion.li
                         initial={{ y: -10, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
-                        transition={{ duration: 0.5, delay: 0.5,
-                          ease: "easeIn" }}
+                        transition={{
+                          duration: 0.5,
+                          delay: 0.5,
+                          ease: "easeIn",
+                        }}
                       >
                         Contact
                       </motion.li>
