@@ -28,10 +28,12 @@ const Projects = () => {
             </div>
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 lgL:justify-between items-end text-right xl:-ml-16 z-10">
-            <p className="font-titleFont text-textAccent text-sm tracking-wide">
-              Featured Project
-            </p>
-            <h3 className="text-2xl font-bold">MotivaDid</h3>
+            <div>
+              <p className="font-titleFont text-textAccent text-sm tracking-wide">
+                Featured Project
+              </p>
+              <h3 className="text-2xl font-bold">MotivaDid</h3>
+            </div>
             <p className="bg-[#262452] text-sm md:text-base p-2 md:p-6 rounded-md">
               A super cool todo web app that not only helps you get stuff done
               but also sprinkles in motivational quotes as you tackle your
@@ -76,10 +78,12 @@ const Projects = () => {
             </div>
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 lgL:justify-between items-end text-right z-10">
-            <p className="font-titleFont text-textAccent text-sm tracking-wide">
-              Featured Project
-            </p>
-            <h3 className="text-2xl font-bold">HypeHub</h3>
+            <div>
+              <p className="font-titleFont text-textAccent text-sm tracking-wide">
+                Featured Project
+              </p>
+              <h3 className="text-2xl font-bold">HypeHub</h3>
+            </div>
             <p className="bg-[#262452] text-sm md:text-base xl:-mr-16 xl:ml-16 p-2 md:p-6 rounded-md">
               HypeHUB is the ultimate task manager with a gaming twist – it's
               like your personal cheering squad, keeping you pumped and
