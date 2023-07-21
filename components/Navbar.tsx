@@ -127,8 +127,8 @@ const Navbar = () => {
                   <Link href="#home">
                     <a className="flex items-center gap-1 text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
                       <motion.li
-                        initial={{ y: -10, opacity: 0 }}
-                        animate={{ y: 0, opacity: 1 }}
+                        initial={{ x: 20, opacity: 0 }}
+                        animate={{ x: 0, opacity: 1 }}
                         transition={{
                           duration: 0.5,
                           delay: 0.2,
@@ -142,8 +142,8 @@ const Navbar = () => {
                   <Link href="#about">
                     <a className="flex items-center gap-1 text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
                       <motion.li
-                        initial={{ y: -10, opacity: 0 }}
-                        animate={{ y: 0, opacity: 1 }}
+                        initial={{ x: 20, opacity: 0 }}
+                        animate={{ x: 0, opacity: 1 }}
                         transition={{
                           duration: 0.5,
                           delay: 0.2,
@@ -157,8 +157,8 @@ const Navbar = () => {
                   <Link href="#experience">
                     <a className="flex items-center gap-1 text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
                       <motion.li
-                        initial={{ y: -10, opacity: 0 }}
-                        animate={{ y: 0, opacity: 1 }}
+                        initial={{ x: 20, opacity: 0 }}
+                        animate={{ x: 0, opacity: 1 }}
                         transition={{
                           duration: 0.5,
                           delay: 0.3,
@@ -172,8 +172,8 @@ const Navbar = () => {
                   <Link href="#project">
                     <a className="flex items-center gap-1 text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
                       <motion.li
-                        initial={{ y: -10, opacity: 0 }}
-                        animate={{ y: 0, opacity: 1 }}
+                        initial={{ x: 20, opacity: 0 }}
+                        animate={{ x: 0, opacity: 1 }}
                         transition={{
                           duration: 0.5,
                           delay: 0.4,
@@ -187,8 +187,8 @@ const Navbar = () => {
                   <Link href="#contact">
                     <a className="flex items-center gap-1 text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
                       <motion.li
-                        initial={{ y: -10, opacity: 0 }}
-                        animate={{ y: 0, opacity: 1 }}
+                        initial={{ x: 20, opacity: 0 }}
+                        animate={{ x: 0, opacity: 1 }}
                         transition={{
                           duration: 0.5,
                           delay: 0.5,
@@ -202,8 +202,8 @@ const Navbar = () => {
                 </ul>
                 <a href="/assets/Dianne_Gabriel_Resume.pdf" target="_blank">
                   <motion.button
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
+                    initial={{ x: 20, opacity: 0 }}
+                    animate={{ x: 0, opacity: 1 }}
                     transition={{ delay: 0.6, ease: "easeIn" }}
                     className="w-32 h-10 rounded-md text-textAccent text-[15px] border border-textAccent hover:bg-hoverColor duration-300"
                   >
