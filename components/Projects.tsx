@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { motivadid } from "@/public/assets";
+import { GrGithub } from "react-icons/gr";
 
 const Projects = () => {
   return (
@@ -42,6 +43,9 @@ const Projects = () => {
               <li>CSS</li>
               <li>Local Storage</li>
             </ul>
+            <div>
+              <a href=""></a>
+            </div>
           </div>
         </div>
       </div>
