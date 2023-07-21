@@ -7,7 +7,7 @@ import { BiSolidVideos } from "react-icons/bi";
 
 const Projects = () => {
   return (
-    <section id="project" className="max-w-container mx-auto lgL:px-20 py-24">
+    <section id="project" className="max-w-container mx-auto lgL:px-20 py-32">
       <h2 className="font-titleFont text-2xl font-semibold flex items-center">
         Projects
         <span className="hidden md:inline-flex md:w-60 lgL:w-72 h-[0.5px] bg-gray-700 ml-6"></span>
