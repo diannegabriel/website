@@ -7,7 +7,10 @@ import { BiSolidVideos } from "react-icons/bi";
 
 const Projects = () => {
   return (
-    <section id="project" className="max-w-container mx-auto lgL:px-20 py-32">
+    <section
+      id="project"
+      className="max-w-container mx-auto lgL:px-20 py-32 lgL:py-40"
+    >
       <h2 className="font-titleFont text-2xl font-semibold flex items-center">
         Projects
         <span className="hidden md:inline-flex md:w-60 lgL:w-72 h-[0.5px] bg-gray-700 ml-6"></span>
@@ -40,7 +43,7 @@ const Projects = () => {
               tasks. It's like a double shot of productivity and inspiration in
               one sweet package!
             </p>
-            <ul className="flex justify-between md:gap-5 sm:gap-3 font-titleFont md:text-sm sm:text-xs text-textDark tracking-wide">
+            <ul className="flex flex-col sm:flex-row justify-between md:gap-5 sm:gap-3 font-titleFont md:text-sm sm:text-xs text-textDark tracking-wide">
               <li>JavaScript</li>
               <li>React.js</li>
               <li>HTML</li>
@@ -90,7 +93,7 @@ const Projects = () => {
               motivated while you crush your goals and level up your
               self-improvement game.
             </p>
-            <ul className="flex justify-between md:gap-5 sm:gap-3 font-titleFont md:text-sm sm:text-xs text-textDark tracking-wide">
+            <ul className="flex flex-col sm:flex-row justify-between md:gap-5 sm:gap-3 font-titleFont md:text-sm sm:text-xs text-textDark tracking-wide">
               <li>JavaScript</li>
               <li>React.js</li>
               <li>Bootstrap</li>
