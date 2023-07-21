@@ -30,11 +30,18 @@ const Projects = () => {
             </p>
             <h3 className="text-2xl font-bold">MotivaDid</h3>
             <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-              A super cool todo web app that not only helps you
-              get stuff done but also sprinkles in motivational quotes
-              as you tackle your tasks. It's like a double shot of productivity
-              and inspiration in one sweet package!
+              A super cool todo web app that not only helps you get stuff done
+              but also sprinkles in motivational quotes as you tackle your
+              tasks. It's like a double shot of productivity and inspiration in
+              one sweet package!
             </p>
+            <ul>
+              <li>JavaScript</li>
+              <li>React.js</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Local storage</li>
+            </ul>
           </div>
         </div>
       </div>
