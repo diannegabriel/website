@@ -11,13 +11,15 @@ const Projects = () => {
       </h2>
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
         <div>
-          <div>
-            <Image
-              className="w-full h-full object-contain"
-              src={motivadid}
-              alt="MotivaDid App"
-            />
-          </div>
+          <a href="https://github.com/diannegabriel/todo-list" target="_blank">
+            <div>
+              <Image
+                className="w-full h-full object-contain"
+                src={motivadid}
+                alt="MotivaDid App"
+              />
+            </div>
+          </a>
         </div>
         <div></div>
       </div>
