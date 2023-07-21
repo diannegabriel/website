@@ -3,6 +3,7 @@ import React from "react";
 import { motivadid } from "@/public/assets";
 import { GrGithub } from "react-icons/gr";
 import { BsBrowserChrome } from "react-icons/bs";
+import { BiSolidVideos } from "react-icons/bi";
 
 const Projects = () => {
   return (
@@ -53,7 +54,7 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row-reverse gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://diannegabriel.github.io/todo-list/"
+            href="https://github.com/diannegabriel/HypeHUB"
             target="_blank"
           >
             <div>
@@ -80,8 +81,8 @@ const Projects = () => {
               <li>Local Storage</li>
             </ul>
             <div className="text-2xl flex gap-4">
-              <a href="https://github.com/diannegabriel/todo-list" target="_blank"><GrGithub /></a>
-              <a href="https://diannegabriel.github.io/todo-list/" target="_blank"><BsBrowserChrome /></a>
+              <a href="https://github.com/diannegabriel/HypeHUB" target="_blank"><GrGithub /></a>
+              <a href="https://www.youtube.com/watch?v=uFkGQgNHRfQ" target="_blank"><BiSolidVideos /></a>
             </div>
           </div>
         </div>
