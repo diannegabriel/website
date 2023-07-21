@@ -25,7 +25,7 @@ const Projects = () => {
             </div>
           </a>
         </div>
-        <div></div>
+        <div className="w-full xl:w-1/2 flex flex-col gap-6 lgL:justify-between items-end text-right xl:-ml-16 z-10"></div>
       </div>
     </section>
   );
