@@ -8,11 +8,9 @@ import { MdClose } from "react-icons/md";
 const Navbar = () => {
   const ref = useRef<string | any>("");
   const [toggleMenu, setToggleMenu] = useState(false);
-  const handleClick = (e:any) => {
-    if(e.target.contains(ref.current)) {
-      setToggleMenu(false)
-    }
-  }
+  const handleClick = (e: any) => {
+    setToggleMenu(false);
+  };
   return (
     <nav className="w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyBgColor px-4">
       <div className="max-w-container h-full mx-auto py-1 font-titleFont font-medium flex items-center justify-between">
@@ -218,14 +216,15 @@ const Navbar = () => {
                     </motion.button>
                   </a>
                 </div>
-                <motion.div className="italic text-textDark text-xs"
-                initial={{ x: 20, opacity: 0 }}
-                animate={{ x: 0, opacity: 1 }}
-                transition={{
-                  duration: 0.5,
-                  delay: 0.7,
-                  ease: "easeIn",
-                }}
+                <motion.div
+                  className="italic text-textDark text-xs"
+                  initial={{ x: 20, opacity: 0 }}
+                  animate={{ x: 0, opacity: 1 }}
+                  transition={{
+                    duration: 0.5,
+                    delay: 0.7,
+                    ease: "easeIn",
+                  }}
                 >
                   <p>
                     Coded in Visual Studio Code. Built with Next.js and Tailwind
