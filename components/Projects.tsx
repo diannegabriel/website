@@ -82,7 +82,7 @@ const Projects = () => {
               <p className="font-titleFont text-textAccent text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">HypeHub</h3>
+              <h3 className="text-2xl font-bold">HypeHUB</h3>
             </div>
             <p className="bg-[#262452] text-sm md:text-base xl:-mr-16 xl:ml-16 p-2 md:p-6 rounded-md">
               HypeHUB is the ultimate task manager with a gaming twist – it's
