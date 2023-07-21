@@ -30,7 +30,8 @@ const Gambles = () => {
           <span className="text-textAccent mt-1">
             <VscDebugBreakpointLog />
           </span>
-          Used research to target audiences, increasing engagement and brand awareness.
+          Used research to target audiences, increasing engagement and brand
+          awareness.
         </li>
         <li className="flex gap-2 text-base text-textDark">
           <span className="text-textAccent mt-1">

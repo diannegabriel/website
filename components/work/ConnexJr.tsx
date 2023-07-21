@@ -1,10 +1,9 @@
-import React from 'react'
+import React from "react";
 import { motion } from "framer-motion";
 import { VscDebugBreakpointLog } from "react-icons/vsc";
 
 const ConnexJr = () => {
   return (
-
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
@@ -25,23 +24,26 @@ const ConnexJr = () => {
           <span className="text-textAccent mt-1">
             <VscDebugBreakpointLog />
           </span>
-          Collaborated with team and clients for custom app designs and contact center solutions.
+          Collaborated with team and clients for custom app designs and contact
+          center solutions.
         </li>
         <li className="flex gap-2 text-base text-textDark">
           <span className="text-textAccent mt-1">
             <VscDebugBreakpointLog />
           </span>
-          Supported and assisted in User Acceptance Testing (UAT) for product launches.
+          Supported and assisted in User Acceptance Testing (UAT) for product
+          launches.
         </li>
         <li className="flex gap-2 text-base text-textDark">
           <span className="text-textAccent mt-1">
             <VscDebugBreakpointLog />
           </span>
-          Proficient in programming languages (Javascript, Java, Python, C++) for efficient solutions.
+          Proficient in programming languages (Javascript, Java, Python, C++)
+          for efficient solutions.
         </li>
       </ul>
     </motion.div>
-  )
-}
+  );
+};
 
-export default ConnexJr
+export default ConnexJr;

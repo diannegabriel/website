@@ -4,7 +4,9 @@ const Email = () => {
   return (
     <div className="w-full h-full flex flex-col items-center justify-end gap-6 text-textLight">
       <a href="mailto:mdianne.gabriel@gmail.com">
-        <p className="text-sm rotate-90 w-96 tracking-wide text-textAccent">mdianne.gabriel@gmail.com</p>
+        <p className="text-sm rotate-90 w-96 tracking-wide text-textAccent">
+          mdianne.gabriel@gmail.com
+        </p>
       </a>
       <span className="w-[2px] h-60 bg-textDark inline-flex"></span>
     </div>

@@ -46,8 +46,18 @@ const Projects = () => {
               <li>Local Storage</li>
             </ul>
             <div className="text-2xl flex gap-4">
-              <a href="https://github.com/diannegabriel/todo-list" target="_blank"><GrGithub /></a>
-              <a href="https://diannegabriel.github.io/todo-list/" target="_blank"><BsBrowserChrome /></a>
+              <a
+                href="https://github.com/diannegabriel/todo-list"
+                target="_blank"
+              >
+                <GrGithub />
+              </a>
+              <a
+                href="https://diannegabriel.github.io/todo-list/"
+                target="_blank"
+              >
+                <BsBrowserChrome />
+              </a>
             </div>
           </div>
         </div>
@@ -71,7 +81,10 @@ const Projects = () => {
             </p>
             <h3 className="text-2xl font-bold">HypeHub</h3>
             <p className="bg-[#262452] text-sm md:text-base xl:-mr-16 xl:ml-16 p-2 md:p-6 rounded-md">
-            HypeHUB is the ultimate task manager with a gaming twist – it's like your personal cheering squad, keeping you pumped and motivated while you crush your goals and level up your self-improvement game.
+              HypeHUB is the ultimate task manager with a gaming twist – it's
+              like your personal cheering squad, keeping you pumped and
+              motivated while you crush your goals and level up your
+              self-improvement game.
             </p>
             <ul className="flex justify-between md:gap-5 sm:gap-3 font-titleFont md:text-sm sm:text-xs text-textDark tracking-wide">
               <li>JavaScript</li>
@@ -82,8 +95,18 @@ const Projects = () => {
               <li>MongoDB</li>
             </ul>
             <div className="text-2xl flex gap-4">
-              <a href="https://github.com/diannegabriel/HypeHUB" target="_blank"><GrGithub /></a>
-              <a href="https://www.youtube.com/watch?v=uFkGQgNHRfQ" target="_blank"><BiSolidVideos /></a>
+              <a
+                href="https://github.com/diannegabriel/HypeHUB"
+                target="_blank"
+              >
+                <GrGithub />
+              </a>
+              <a
+                href="https://www.youtube.com/watch?v=uFkGQgNHRfQ"
+                target="_blank"
+              >
+                <BiSolidVideos />
+              </a>
             </div>
           </div>
         </div>
