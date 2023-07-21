@@ -107,8 +107,69 @@ const Navbar = () => {
               transition={{ duration: 0.1 }}
               className="w-[80%] h-full overflow-y-scroll scrollbarHide bg-[#262452] flex flex-col items-center px-4 py-10 relative"
             >
-              <MdClose onClick={() => setToggleMenu(false)}
-              className="text-3xl text-textAccent cursor-pointer hover:text-red-500 absolute top-4 right-4 " />
+              <MdClose
+                onClick={() => setToggleMenu(false)}
+                className="text-3xl text-textAccent cursor-pointer hover:text-red-500 absolute top-4 right-4 "
+              />
+              <div>
+                <ul className="flex flex-col text-[15px] gap-7">
+                  <Link href="#home">
+                    <a className="flex items-center gap-1 text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
+                      <motion.li
+                        initial={{ y: -10, opacity: 0 }}
+                        animate={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 0.5 }}
+                      >
+                        Home
+                      </motion.li>
+                    </a>
+                  </Link>
+                  <Link href="#about">
+                    <a className="flex items-center gap-1 text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
+                      <motion.li
+                        initial={{ y: -10, opacity: 0 }}
+                        animate={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 0.5, delay: 0.2 }}
+                      >
+                        About
+                      </motion.li>
+                    </a>
+                  </Link>
+                  <Link href="#experience">
+                    <a className="flex items-center gap-1 text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
+                      <motion.li
+                        initial={{ y: -10, opacity: 0 }}
+                        animate={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 0.5, delay: 0.3 }}
+                      >
+                        Experience
+                      </motion.li>
+                    </a>
+                  </Link>
+                  <Link href="#project">
+                    <a className="flex items-center gap-1 text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
+                      <motion.li
+                        initial={{ y: -10, opacity: 0 }}
+                        animate={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 0.5, delay: 0.4 }}
+                      >
+                        Projects
+                      </motion.li>
+                    </a>
+                  </Link>
+                  <Link href="#contact">
+                    <a className="flex items-center gap-1 text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
+                      <motion.li
+                        initial={{ y: -10, opacity: 0 }}
+                        animate={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 0.5, delay: 0.5 }}
+                      >
+                        Contact
+                      </motion.li>
+                    </a>
+                  </Link>
+                </ul>
+              </div>
             </motion.div>
           </div>
         )}
