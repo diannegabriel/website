@@ -1,29 +1,41 @@
 import React, { useState } from "react";
 import ConnexJr from "./work/ConnexJr";
 import ConnexPrAn from "./work/ConnexPrAn";
+import Education from "./work/Education";
 import Gambles from "./work/Gambles";
 
 const Experience = () => {
   const [workConnexPrAn, setWorkConnexPrAn] = useState(true);
   const [workConnexJr, setWorkConnexJr] = useState(false);
   const [workGambles, setworkGambles] = useState(false);
+  const [education, setEducation] = useState(false);
 
   const handleConnexPrAn = () => {
     setWorkConnexPrAn(true);
     setWorkConnexJr(false);
     setworkGambles(false);
+    setEducation(false);
   };
 
   const handleConnexJr = () => {
     setWorkConnexPrAn(false);
     setWorkConnexJr(true);
     setworkGambles(false);
+    setEducation(false);
   };
 
   const handleGambles = () => {
     setWorkConnexPrAn(false);
     setWorkConnexJr(false);
     setworkGambles(true);
+    setEducation(false);
+  };
+
+  const handleEducation = () => {
+    setWorkConnexPrAn(false);
+    setWorkConnexJr(false);
+    setworkGambles(false);
+    setEducation(true);
   };
   return (
     <section
@@ -66,10 +78,21 @@ const Experience = () => {
           >
             Gambles
           </li>
+          <li
+            onClick={handleEducation}
+            className={`${
+              education
+                ? "border-l-textAccent text-textAccent"
+                : "border-l-hoverColor text-hoverColor"
+            } border-l-2 bg-transparent hover:bg-[#262452] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+          >
+            Education
+          </li>
         </ul>
         {workConnexPrAn && <ConnexPrAn />}
         {workConnexJr && <ConnexJr />}
         {workGambles && <Gambles />}
+        {education && <Education />}
       </div>
       <div className="mt-24 flex items-center justify-center">
           <a href="/assets/Dianne_Gabriel_Resume.pdf" target="_blank">
