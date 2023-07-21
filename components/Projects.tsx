@@ -35,12 +35,12 @@ const Projects = () => {
               tasks. It's like a double shot of productivity and inspiration in
               one sweet package!
             </p>
-            <ul>
+            <ul className="flex justify-between md:gap-5 sm:gap-3 font-titleFont md:text-sm sm:text-xs text-textDark tracking-wide">
               <li>JavaScript</li>
               <li>React.js</li>
               <li>HTML</li>
               <li>CSS</li>
-              <li>Local storage</li>
+              <li>Local Storage</li>
             </ul>
           </div>
         </div>
