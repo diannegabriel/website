@@ -36,6 +36,7 @@ export default function Home() {
             <Experience />
             <Projects />
             <Contact />
+            <Footer />
           </article>
           {/* <motion.aside
             initial={{ opacity: 0 }}

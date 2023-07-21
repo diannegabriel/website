@@ -7,12 +7,11 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="max-w-contentContainer mx-auto py-10 lg:py-72 flex flex-col gap-8 items-center justify-center"
+      className="max-w-contentContainer mx-auto py-10 pb-72 lg:py-72 flex flex-col gap-8 items-center justify-center"
     >
       {/* <p className="font-titleFont text-lg text-textAccent font-semibold flex items-center tracking-wide">
         Contact
       </p> */}
-      <div></div>
       <h2 className="font-titleFont text-5xl font-semibold">Let's connect!</h2>
       <p className="max-w-[600px] text-center text-textDark">
         I'm currently on the hunt for some exciting new opportunities in the
