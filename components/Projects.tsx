@@ -43,7 +43,7 @@ const Projects = () => {
               tasks. It's like a double shot of productivity and inspiration in
               one sweet package!
             </p>
-            <ul className="flex flex-col sm:flex-row justify-between md:gap-5 sm:gap-3 font-titleFont md:text-sm sm:text-xs text-textDark tracking-wide">
+            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>JavaScript</li>
               <li>React.js</li>
               <li>HTML</li>
@@ -93,7 +93,7 @@ const Projects = () => {
               motivated while you crush your goals and level up your
               self-improvement game.
             </p>
-            <ul className="flex flex-col sm:flex-row justify-between md:gap-5 sm:gap-3 font-titleFont md:text-sm sm:text-xs text-textDark tracking-wide">
+            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>JavaScript</li>
               <li>React.js</li>
               <li>Bootstrap</li>
