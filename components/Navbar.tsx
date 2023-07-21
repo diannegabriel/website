@@ -25,7 +25,10 @@ const Navbar = () => {
                 <motion.li
                   initial={{ y: -10, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
-                  transition={{ duration: 0.5 }}
+                  transition={{
+                    duration: 0.5,
+                    ease: "easeIn",
+                  }}
                 >
                   Home
                 </motion.li>
@@ -36,7 +39,11 @@ const Navbar = () => {
                 <motion.li
                   initial={{ y: -10, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
-                  transition={{ duration: 0.5, delay: 0.2 }}
+                  transition={{
+                    duration: 0.5,
+                    delay: 0.2,
+                    ease: "easeIn",
+                  }}
                 >
                   About
                 </motion.li>
@@ -47,7 +54,11 @@ const Navbar = () => {
                 <motion.li
                   initial={{ y: -10, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
-                  transition={{ duration: 0.5, delay: 0.3 }}
+                  transition={{
+                    duration: 0.5,
+                    delay: 0.3,
+                    ease: "easeIn",
+                  }}
                 >
                   Experience
                 </motion.li>
@@ -58,7 +69,7 @@ const Navbar = () => {
                 <motion.li
                   initial={{ y: -10, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
-                  transition={{ duration: 0.5, delay: 0.4 }}
+                  transition={{ duration: 0.5, delay: 0.4, ease: "easeIn" }}
                 >
                   Projects
                 </motion.li>
@@ -69,7 +80,7 @@ const Navbar = () => {
                 <motion.li
                   initial={{ y: -10, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
-                  transition={{ duration: 0.5, delay: 0.5 }}
+                  transition={{ duration: 0.5, delay: 0.5, ease: "easeIn" }}
                 >
                   Contact
                 </motion.li>
@@ -80,7 +91,7 @@ const Navbar = () => {
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 0.6 }}
+              transition={{ delay: 0.6, ease: "easeIn" }}
               className="px-4 py-2 rounded-md text-textAccent text-[15px] border border-textAccent hover:bg-hoverColor duration-300"
             >
               Resume
@@ -118,7 +129,11 @@ const Navbar = () => {
                       <motion.li
                         initial={{ y: -10, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
-                        transition={{ duration: 0.5 }}
+                        transition={{
+                          duration: 0.5,
+                          delay: 0.2,
+                          ease: "easeIn"
+                        }}
                       >
                         Home
                       </motion.li>
