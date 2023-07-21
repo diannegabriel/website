@@ -1,10 +1,10 @@
-import Image from 'next/image'
-import React from 'react'
+import Image from "next/image";
+import React from "react";
+import { motivadid } from "@/public/assets";
 
 const Projects = () => {
   return (
-    <section id="project"
-    className="max-w-container mx-auto lgL:px-20 py-24">
+    <section id="project" className="max-w-container mx-auto lgL:px-20 py-24">
       <h2 className="font-titleFont text-2xl font-semibold flex items-center">
         Projects
         <span className="hidden md:inline-flex md:w-60 lgL:w-72 h-[0.5px] bg-gray-700 ml-6"></span>
@@ -12,13 +12,17 @@ const Projects = () => {
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
         <div>
           <div>
-            <Image />
+            <Image
+              className="w-full h-full object-contain"
+              src={motivadid}
+              alt="MotivaDid App"
+            />
           </div>
         </div>
         <div></div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
