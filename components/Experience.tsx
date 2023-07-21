@@ -71,6 +71,13 @@ const Experience = () => {
         {workConnexJr && <ConnexJr />}
         {workGambles && <Gambles />}
       </div>
+      <div className="mt-24 flex items-center justify-center">
+          <a href="/assets/Dianne_Gabriel_Resume.pdf" target="_blank">
+            <button className="w-36 h-12 rounded-md text-textAccent text-[15px] border border-textAccent hover:bg-hoverColor duration-300">
+              Expand
+            </button>
+          </a>
+        </div>
     </section>
   );
 };
