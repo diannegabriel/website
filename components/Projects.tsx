@@ -76,9 +76,10 @@ const Projects = () => {
             <ul className="flex justify-between md:gap-5 sm:gap-3 font-titleFont md:text-sm sm:text-xs text-textDark tracking-wide">
               <li>JavaScript</li>
               <li>React.js</li>
+              <li>Bootstrap</li>
               <li>HTML</li>
               <li>CSS</li>
-              <li>Local Storage</li>
+              <li>MongoDB</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a href="https://github.com/diannegabriel/HypeHUB" target="_blank"><GrGithub /></a>
