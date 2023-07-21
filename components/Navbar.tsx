@@ -95,7 +95,12 @@ const Navbar = () => {
           <span className="w-full h-[2px] bg-textAccent inline-flex transform translate-x-3 group-hover:translate-x-0 transition-all ease-in-out duration-300"></span>
           <span className="w-full h-[2px] bg-textAccent inline-flex transform translate-x-1 group-hover:translate-x-3 transition-all ease-in-out duration-300"></span>
         </div>
-        {toggleMenu && <div className="absolute mdL:hidden top-0 right-0 w-full h-screen bg-black bg-opacity-50 flex flex-col items-end"></div>}
+        {toggleMenu && (
+          <div
+            ref={(node) => (ref.current = node)}
+            className="absolute mdL:hidden top-0 right-0 w-full h-screen bg-black bg-opacity-50 flex flex-col items-end"
+          ></div>
+        )}
       </div>
     </nav>
   );
