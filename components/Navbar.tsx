@@ -122,7 +122,7 @@ const Navbar = () => {
                 onClick={() => setToggleMenu(false)}
                 className="text-3xl text-textAccent cursor-pointer hover:text-red-500 absolute top-4 right-4 "
               />
-              <div>
+              <div className="flex flex-col items-center gap-7">
                 <ul className="flex flex-col text-[15px] gap-7">
                   <Link href="#home">
                     <a className="flex items-center gap-1 text-textDark hover:text-textAccent cursor-pointer duration-300 nav-link">
