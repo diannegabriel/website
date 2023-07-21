@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Projects = () => {
@@ -11,7 +12,7 @@ const Projects = () => {
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
         <div>
           <div>
-            
+            <Image />
           </div>
         </div>
         <div></div>
