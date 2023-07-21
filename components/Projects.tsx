@@ -2,9 +2,10 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div>
+    <section id="project"
+    className="max-w-container mx-auto lgL:px-20 py-24">
       
-    </div>
+    </section>
   )
 }
 
