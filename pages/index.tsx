@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import Introduction from "@/components/Introduction";
 import About from "@/components/About";
 import Experience from "@/components/Experience";
+import Projects from "@/components/Projects";
 
 // const inter = Inter({ subsets: ['latin'] })
 
@@ -31,6 +32,7 @@ export default function Home() {
             <Introduction />
             <About />
             <Experience />
+            <Projects />
           </article>
           <motion.aside
             initial={{ opacity: 0 }}
