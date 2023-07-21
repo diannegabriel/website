@@ -200,6 +200,16 @@ const Navbar = () => {
                     </a>
                   </Link>
                 </ul>
+                <a href="/assets/Dianne_Gabriel_Resume.pdf" target="_blank">
+                  <motion.button
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ delay: 0.6, ease: "easeIn" }}
+                    className="w-32 h-10 rounded-md text-textAccent text-[15px] border border-textAccent hover:bg-hoverColor duration-300"
+                  >
+                    Resume
+                  </motion.button>
+                </a>
               </div>
             </motion.div>
           </div>
