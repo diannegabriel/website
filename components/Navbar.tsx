@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
+import { MdClose } from "react-icons/md";
 
 const Navbar = () => {
   const ref = useRef<string | any>("");
