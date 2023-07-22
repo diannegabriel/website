@@ -41,7 +41,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 - Typescript
 - Next.js
-- Tailwind
+- Tailwind CSS
 - Vercel
 - React Icons
 - Framer Motion
+- Tailwind Scrollbars
