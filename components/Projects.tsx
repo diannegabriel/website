@@ -100,6 +100,7 @@ const Projects = () => {
               <li>HTML</li>
               <li>CSS</li>
               <li>MongoDB</li>
+              <li>Spotify API</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a
