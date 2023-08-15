@@ -25,19 +25,24 @@ const BlabbyBlueJay = () => {
           <p className="font-titleFont text-textAccent text-sm tracking-wide">
             Featured Project
           </p>
-          <h3 className="text-2xl font-bold"></h3>
+          <h3 className="text-2xl font-bold">Blabby Blue Jay</h3>
         </div>
         <p className="bg-[#262452] text-sm md:text-base p-2 md:p-6 rounded-md">
-          
+        Dive into a real-time chat platform designed exclusively for fans of the Toronto Blue Jays. Talk with fellow enthusiasts from around the world about game moments, team strategies, and the baseball season.
         </p>
         <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
           <li>JavaScript</li>
+          <li>React.js</li>
+          <li>TailwindCSS</li>
+          <li>DaisyUI</li>
+          <li>Firebase</li>
+          <li>Vite</li>
         </ul>
         <div className="text-2xl flex gap-4">
-          <a href="https://github.com/diannegabriel/todo-list" target="_blank">
+          <a href="https://github.com/diannegabriel/blabbybluejay" target="_blank">
             <GrGithub />
           </a>
-          <a href="https://diannegabriel.github.io/todo-list/" target="_blank">
+          <a href="https://blabbybluejay.vercel.app/" target="_blank">
             <BsBrowserChrome />
           </a>
         </div>
