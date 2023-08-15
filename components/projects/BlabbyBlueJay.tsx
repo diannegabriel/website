@@ -25,20 +25,13 @@ const BlabbyBlueJay = () => {
           <p className="font-titleFont text-textAccent text-sm tracking-wide">
             Featured Project
           </p>
-          <h3 className="text-2xl font-bold">MotivaDid</h3>
+          <h3 className="text-2xl font-bold"></h3>
         </div>
         <p className="bg-[#262452] text-sm md:text-base p-2 md:p-6 rounded-md">
-          A super cool todo web app that not only helps you get stuff done but
-          also sprinkles in motivational quotes as you tackle your tasks. It's
-          like a double shot of productivity and inspiration in one sweet
-          package!
+          
         </p>
         <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
           <li>JavaScript</li>
-          <li>React.js</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Local Storage</li>
         </ul>
         <div className="text-2xl flex gap-4">
           <a href="https://github.com/diannegabriel/todo-list" target="_blank">

@@ -1,4 +1,5 @@
 import React from "react";
+import BlabbyBlueJay from "./projects/BlabbyBlueJay";
 import HypeHub from "./projects/HypeHub";
 import MotivaDid from "./projects/MotivaDid";
 
@@ -15,6 +16,7 @@ const Projects = () => {
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
         <MotivaDid />
         <HypeHub />
+        <BlabbyBlueJay />
       </div>
       <div className="pt-36 flex items-center justify-center">
         <a href="https://github.com/diannegabriel?tab=repositories" target="_blank">
