@@ -115,7 +115,7 @@ const About = () => {
               <span className="text-textAccent">
                 <AiFillStar />
               </span>
-              Terraform
+              Firebase
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textAccent">
