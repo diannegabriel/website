@@ -9,7 +9,7 @@ const BlabbyBlueJay = () => {
     <div className="flex flex-col xl:flex-row gap-6">
       <a
         className="w-full xl:w-1/2 h-auto relative group"
-        href="https://diannegabriel.github.io/todo-list/"
+        href="https://blabbybluejay.vercel.app/"
         target="_blank"
       >
         <div>
