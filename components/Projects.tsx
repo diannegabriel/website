@@ -2,6 +2,7 @@ import React from "react";
 import BlabbyBlueJay from "./projects/BlabbyBlueJay";
 import HypeHub from "./projects/HypeHub";
 import MotivaDid from "./projects/MotivaDid";
+import Tweeter from "./projects/Tweeter";
 
 const Projects = () => {
   return (
@@ -17,6 +18,7 @@ const Projects = () => {
         <MotivaDid />
         <HypeHub />
         <BlabbyBlueJay />
+        <Tweeter />
       </div>
       <div className="pt-36 flex items-center justify-center">
         <a href="https://github.com/diannegabriel?tab=repositories" target="_blank">

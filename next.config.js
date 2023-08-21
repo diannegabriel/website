@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   // future: { webpack5: true }
-  webpack: false
+  // webpack: false
 };
 
 module.exports = nextConfig;
