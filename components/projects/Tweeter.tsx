@@ -9,7 +9,7 @@ const Tweeter = () => {
     <div className="flex flex-col xl:flex-row-reverse gap-6">
       <a
         className="w-full xl:w-1/2 h-auto relative group"
-        href="https://github.com/diannegabriel/tweeter"
+        href="https://tweeter-rlgc.onrender.com/"
         target="_blank"
       >
         <div>
