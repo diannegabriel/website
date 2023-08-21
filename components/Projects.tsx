@@ -3,6 +3,7 @@ import BlabbyBlueJay from "./projects/BlabbyBlueJay";
 import HypeHub from "./projects/HypeHub";
 import MotivaDid from "./projects/MotivaDid";
 import Tweeter from "./projects/Tweeter";
+import TinyApp from "./projects/TinyApp";
 
 const Projects = () => {
   return (
@@ -19,6 +20,7 @@ const Projects = () => {
         <HypeHub />
         <BlabbyBlueJay />
         <Tweeter />
+        <TinyApp />
       </div>
       <div className="pt-36 flex items-center justify-center">
         <a href="https://github.com/diannegabriel?tab=repositories" target="_blank">
