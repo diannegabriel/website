@@ -16,7 +16,7 @@ const HypeHub = () => {
           <Image
             className="w-full h-full object-contain"
             src={hypehub}
-            alt="MotivaDid App"
+            alt="HypeHub"
           />
         </div>
       </a>
