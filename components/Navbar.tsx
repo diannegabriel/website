@@ -92,6 +92,16 @@ const Navbar = () => {
               </a>
             </Link>
           </ul>
+          <a href="/assets/Dianne_Gabriel_Resume_Simple.pdf" target="_blank">
+            <motion.button
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.6, ease: "easeIn" }}
+              className="px-4 py-2 rounded-md text-textAccent text-[15px] border border-textAccent hover:bg-hoverColor duration-300"
+            >
+              Resume Ver. 1
+            </motion.button>
+          </a>
           <a href="/assets/Dianne_Gabriel_Resume.pdf" target="_blank">
             <motion.button
               initial={{ opacity: 0 }}
@@ -99,7 +109,7 @@ const Navbar = () => {
               transition={{ delay: 0.6, ease: "easeIn" }}
               className="px-4 py-2 rounded-md text-textAccent text-[15px] border border-textAccent hover:bg-hoverColor duration-300"
             >
-              Resume
+              Resume Ver. 2
             </motion.button>
           </a>
         </div>
@@ -207,7 +217,7 @@ const Navbar = () => {
                       </a>
                     </Link>
                   </ul>
-                  <a href="/assets/Dianne_Gabriel_Resume.docx" target="_blank">
+                  <a href="/assets/Dianne_Gabriel_Resume_Simple.pdf" target="_blank">
                     <motion.button
                       initial={{ x: 20, opacity: 0 }}
                       animate={{ x: 0, opacity: 1 }}
