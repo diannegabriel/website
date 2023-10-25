@@ -18,7 +18,7 @@ const Education = () => {
           </span>
         </h3>
         <p className="text-sm mt-1 font-medium text-textDark">
-          July 2021 - October 2022
+          July 2021 - October 2021
         </p>
       </div>
       {/* <span className="hidden md:inline-flex w-[0.5px] h-[50px] bg-gray-700" ></span> */}
