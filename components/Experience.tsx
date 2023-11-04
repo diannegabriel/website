@@ -66,7 +66,7 @@ const Experience = () => {
             >
               Connex
             </li>
-            <li
+            {/* <li
               onClick={handleGambles}
               className={`${
                 workGambles
@@ -75,7 +75,7 @@ const Experience = () => {
               } border-l-2 bg-transparent hover:bg-[#262452] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
             >
               Gambles
-            </li>
+            </li> */}
             <li
               onClick={handleEducation}
               className={`${
