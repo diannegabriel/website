@@ -37,6 +37,8 @@ const Experience = () => {
     setworkGambles(false);
     setEducation(true);
   };
+
+  // TODO: Add Maximus
   return (
     <section id="experience" className="lgL:pt-36">
       <div className="max-w-containerXS mx-auto py-10 lgL:py-24 lgL:pb-36 px-4">
